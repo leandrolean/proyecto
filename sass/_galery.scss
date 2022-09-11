@@ -1,12 +1,27 @@
 .row{
     position: relative;
-    top: 8vh;
+    top: 13vh;
 
 
     .card{
         margin: 2vh;
         left: 7vh;
-        height: 55vh;
+        height: 50vh;
+        border-radius: 15px;
+        color: white;
+        border: 2px solid white;
+        background-color: rgba(0, 0, 0, 0.589);
+
+
+        &:hover{
+            position: relative;
+            bottom: 2vh;
+            box-shadow: 10px 10px 101px white;
+        }
+    }
+
+    .card-img-top{
+        border-radius: 15px;
     }
 
 }
