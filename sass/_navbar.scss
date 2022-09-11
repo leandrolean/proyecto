@@ -1,0 +1,46 @@
+.body{
+background-color: white;
+}
+
+
+.navbar {
+  background: linear-gradient(to left, rgb(38, 130, 146), rgb(0, 0, 0));
+  font-family: sans;
+  height: 8vh;
+
+  .nav-item {
+    margin: 0 4vh;
+  }
+
+  .navbar-brand {
+    font-size: 5vh;
+    
+    &:hover {
+      color: white;
+      text-shadow: 5px 2px 5px white;
+      transition: 0.2s;
+    }
+  }
+
+  .nav-link {
+    font-size: 2.5vh;
+    color: black;
+    letter-spacing: 1.5px;
+
+    &:hover {
+      color: white;
+      text-shadow: 5px 2px 5px white;
+      transition: 0.2s;
+    }
+  }
+
+  .navbar-toggler {
+    background: linear-gradient(to left, rgb(3, 91, 206), rgb(255, 255, 255));
+  }
+
+
+.container-fluid{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(27, 145, 255));
+    z-index: 1;
+}
+}

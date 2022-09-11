@@ -1,1 +1,64 @@
-/*# sourceMappingURL=estilo.css.map */
+.body {
+  background-color: white;
+}
+
+.navbar {
+  background: linear-gradient(to left, rgb(38, 130, 146), rgb(0, 0, 0));
+  font-family: sans;
+  height: 8vh;
+}
+.navbar .nav-item {
+  margin: 0 4vh;
+}
+.navbar .navbar-brand {
+  font-size: 5vh;
+}
+.navbar .navbar-brand:hover {
+  color: white;
+  text-shadow: 5px 2px 5px white;
+  transition: 0.2s;
+}
+.navbar .nav-link {
+  font-size: 2.5vh;
+  color: black;
+  letter-spacing: 1.5px;
+}
+.navbar .nav-link:hover {
+  color: white;
+  text-shadow: 5px 2px 5px white;
+  transition: 0.2s;
+}
+.navbar .navbar-toggler {
+  background: linear-gradient(to left, rgb(3, 91, 206), rgb(255, 255, 255));
+}
+.navbar .container-fluid {
+  background: linear-gradient(to left, rgb(255, 255, 255), rgb(27, 145, 255));
+  z-index: 1;
+}
+
+.row {
+  position: relative;
+  top: 8vh;
+}
+.row .card {
+  margin: 2vh;
+  left: 7vh;
+  height: 55vh;
+}
+
+.h1t {
+  position: relative;
+  color: rgb(255, 255, 255);
+  top: 5vh;
+  left: 8vh;
+  font-family: serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.body {
+  background: #373B44; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: repeat;
+  background-size: cover;
+}/*# sourceMappingURL=estilo.css.map */
