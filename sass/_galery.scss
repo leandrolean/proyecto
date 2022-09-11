@@ -6,22 +6,36 @@
     .card{
         margin: 2vh;
         left: 7vh;
-        height: 50vh;
+        height: 55vh;
         border-radius: 15px;
         color: white;
-        border: 2px solid white;
-        background-color: rgba(0, 0, 0, 0.589);
-
-
+        border: 2px solid rgb(45, 143, 255);
+        background-color: rgba(0, 0, 0, 0.815);
+        text-transform: capitalize;
         &:hover{
             position: relative;
             bottom: 2vh;
-            box-shadow: 10px 10px 101px white;
+            box-shadow: 10px 10px 101px rgb(7, 155, 253);
+            border: 2px solid white;
         }
+
+    }
+        
+
+    
+
+
+
+
+        .card-img-top{
+            border-radius: 15px;
+            
+            
+        }
+    
     }
 
-    .card-img-top{
-        border-radius: 15px;
-    }
 
-}
+    
+
+

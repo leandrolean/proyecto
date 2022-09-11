@@ -1,0 +1,72 @@
+.navbar {
+  background-color: black;
+  top: 6vh;
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  .navbar-toggler {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .container-fluid {
+    background: #0575e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #e6ecff,
+      #ffffff
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #021b79,
+      #0575e6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .nav-link {
+    text-transform: capitalize;
+    color: white;
+    font-size: 100%;
+
+    &:hover {
+      background-color: #ffffff;
+      color: black;
+      border-radius: 20px;
+      transition: 0.5s;
+    }
+  }
+
+  .navbar-brand {
+    font-size: 5vh;
+    color: white;
+    font-family: serif;
+
+    &:hover {
+      color: white;
+      border-radius: 20px;
+      text-shadow: 5px 5px 5px white;
+      transition: 0.5s;
+    }
+  }
+  .nav-link.active{
+    color: white;
+
+    &:hover{
+        color: black;
+    }
+  }
+
+  #navbarNavDropdown{
+    /*position: relative;
+    left: 10vh;*/
+    
+  }
+}

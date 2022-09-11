@@ -1,45 +1,49 @@
 .navbar {
-  font-family: sans;
-  height: 8vh;
-  top: 3vh;
+  background-color: black;
+  top: 6vh;
+  background: #0575e6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021b79, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
 }
-.navbar .nav-item {
-  margin: 0 4vh;
+.navbar .navbar-toggler {
+  background-color: white;
+  border-radius: 10px;
 }
-.navbar .nav-item:hover {
+.navbar .container-fluid {
+  background: #0575e6; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021b79, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar .nav-link {
+  text-transform: capitalize;
+  color: white;
+  font-size: 100%;
+}
+.navbar .nav-link:hover {
+  background-color: #ffffff;
+  color: black;
   border-radius: 20px;
+  transition: 0.5s;
 }
 .navbar .navbar-brand {
   font-size: 5vh;
-  color: rgb(0, 0, 0);
+  color: white;
+  font-family: serif;
 }
 .navbar .navbar-brand:hover {
-  position: relative;
-  bottom: 0.5vh;
-  color: #1575c9;
+  color: white;
+  border-radius: 20px;
+  text-shadow: 5px 5px 5px white;
   transition: 0.5s;
-  /*text-shadow: 3px 8px 5px  white;*/
 }
-.navbar .nav-link {
-  font-size: 2.5vh;
+.navbar .nav-link.active {
+  color: white;
+}
+.navbar .nav-link.active:hover {
   color: black;
-  letter-spacing: 1.5px;
-  text-transform: capitalize;
 }
-.navbar .nav-link:hover {
-  color: rgb(12, 95, 204);
-  position: relative;
-  bottom: 0.5vh;
-  text-shadow: 3px 8px 5px white;
-}
-.navbar .navbar-toggler {
-  background: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 255, 255));
-}
-.navbar .container-fluid {
-  background: #000428; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff 50%, #f5f5f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  z-index: 1;
-  box-shadow: 10px 10px 101px white;
+.navbar #navbarNavDropdown {
+  /*position: relative;
+  left: 10vh;*/
 }
 
 .row {
@@ -49,16 +53,18 @@
 .row .card {
   margin: 2vh;
   left: 7vh;
-  height: 50vh;
+  height: 55vh;
   border-radius: 15px;
   color: white;
-  border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0.589);
+  border: 2px solid rgb(45, 143, 255);
+  background-color: rgba(0, 0, 0, 0.815);
+  text-transform: capitalize;
 }
 .row .card:hover {
   position: relative;
   bottom: 2vh;
-  box-shadow: 10px 10px 101px white;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  border: 2px solid white;
 }
 .row .card-img-top {
   border-radius: 15px;
@@ -67,7 +73,7 @@
 .h1t {
   position: relative;
   color: rgb(255, 255, 255);
-  top: 10vh;
+  top: 12vh;
   left: 8vh;
   font-family: serif;
   font-weight: bold;
@@ -75,5 +81,32 @@
 }
 
 .body {
-  background-image: url(/img/fondo3.jpg);
+  background-image: url(/img/fondo7jpg);
+  width: 100%;
+}
+
+.fotind {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  position: relative;
+  left: 70vh;
+  top: 17vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background: #8e9eab; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #222425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fotind a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+/*pintura*/
+.img-thumbnail {
+  width: 30vh;
+  height: 30vh;
+  margin: 10vh;
 }/*# sourceMappingURL=estilo.css.map */
