@@ -1,11 +1,83 @@
 .h1t{
     position: relative;
     color:rgb(255, 255, 255) ;
-    
+    width: 50%;
 
     top: 12vh;
     left: 8vh;
     font-family: serif;
     font-weight: bold;
     text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+.ofrecemos{
+    color: white;
+    font-size: 5vh;
+    display: inline-block;
+    position: absolute;
+    top: 19vh;
+    left: 75vh;
+    width: 30%;
+    text-transform: capitalize;
+    font-family: serif;
+    text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+
+    z-index: 1;
+}
+
+
+/*pintura*/
+
+.parrafo1{
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 20vh;
+    right: 25vh;
+    font-size: 2vh;
+}
+
+.ht2{
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 10%;
+    position: relative;
+    left: 10vh;
+    top: 15vh;
+    text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+
+}
+
+.text{
+    text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+    font-size: 3vh;
+    position: relative;
+    left: 70vh;
+    color: white;
+    top: 18vh;
+    text-transform: uppercase;
+    font-family: serif;
+    width: 50%;
+}
+@media (max-width:768px){
+    .text{
+        position: relative;
+        top: 60vh;
+        left: 15vh;
+        font-size: 2vh;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width:568px){
+    .text{
+        position: relative;
+        top: 57vh;
+        left:6vh;
+        color: rgb(255, 255, 255);
+    }
 }
