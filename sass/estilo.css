@@ -151,7 +151,7 @@
   }
 }
 .body {
-  background-image: url(/img/fondo7jpg);
+  background-image: url(..//img/fondo7jpg);
   width: 100%;
 }
 
