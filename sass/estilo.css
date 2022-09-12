@@ -98,6 +98,13 @@
   z-index: 1;
 }
 
+@media (max-width: 768px) {
+  .ofrecemos {
+    position: relative;
+    left: 5vh;
+    top: 10vh;
+  }
+}
 /*pintura*/
 .parrafo1 {
   color: white;
@@ -264,6 +271,4 @@
     width: 70vh;
     top: 15vh;
   }
-}
-
-/*pintura*//*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */
