@@ -41,9 +41,17 @@
 .navbar .nav-link.active:hover {
   color: black;
 }
-.navbar #navbarNavDropdown {
-  /*position: relative;
-  left: 10vh;*/
+@media (min-width: 768px) {
+  .navbar .navbar {
+    width: 120vh;
+    display: flex;
+    background-color: pink;
+  }
+  .navbar .container-fluid {
+    color: red;
+    display: flex;
+    width: 100%;
+  }
 }
 
 .row {
@@ -180,6 +188,13 @@
   text-transform: capitalize;
 }
 
+@media (max-width: 768px) {
+  .fotind {
+    position: relative;
+    left: 15vh;
+    width: 20vh;
+  }
+}
 /*envios*/
 .mapa {
   display: flex;

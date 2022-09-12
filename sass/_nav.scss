@@ -64,9 +64,18 @@
     }
   }
 
-  #navbarNavDropdown{
-    /*position: relative;
-    left: 10vh;*/
-    
-  }
+
+  @media(min-width:768px) {
+    .navbar{
+      width: 120vh;
+      display: flex;
+      background-color: pink;
+    }
+    .container-fluid{
+      color: red;
+      display: flex;
+      width: 100%;
+    }
+
+}
 }
