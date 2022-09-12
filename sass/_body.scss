@@ -1,5 +1,5 @@
 .body{
-background-image: url(..//img/fondo7jpg); 
+background-image: url(..//img/fondo5.jpg); 
 width: 100%;
 
 }
@@ -139,14 +139,16 @@ width: 100%;
             position: relative;
             right: 30vh;
             top: 35vh;
-            width: 45vh;
+            width: 40vh;
         }
     }
-        @media (min-width:769px){
+
+        /*normal escritorio*/
+        @media (min-width:869px){
             .tabla{
                 left:  10vh;
                 top: 8vh;
-                width: 100%;                
+                width: 50vh;                
                 }
                 .table{
                     color: rgb(255, 255, 255);
@@ -155,10 +157,6 @@ width: 100%;
                     
                     width:70vh;
                     top:15vh;
-                }
-    
-    
-
+                } 
             }
-        }
-    
+    }
