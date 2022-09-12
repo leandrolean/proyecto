@@ -98,73 +98,54 @@ width: 100%;
 
 /*tabla*/
 
-.tabla{
-    position: relative;
-    top: 10vh;
-    left: 70vh;
+
 
 
    .table{
-    width: 40%;
-    left: 95vh;
+    width: 90vh;
+    left: 70vh;
+    top: 25vh;
     font-size: 3vh;
     background-color: rgba(0, 0, 0, 0.699);
     color: white;
     border: 2px solid rgb(172, 222, 255);
     box-shadow: 5px 5px 50px rgb(6, 95, 197);
+    position: relative;
+
 
    }
+
+   @media (max-width:1338px){
+        .table{
+            position: relative;
+            left: 10vh;
+            top: 47vh;
+            width:50vh ;
+            transition: 1s;
+            color: rgb(255, 255, 255);
+        }
+
+        .text{
+            position: relative;
+            left: 10vh;
+            top:110vh; 
+        }
+   }
+   @media (max-width:767px){
+    .table{
+        color: rgb(255, 255, 255);
+        top: 30vh;
+    }
+   }
+
+   @media (max-width:499px){
+    .table{
+        color: rgb(255, 255, 255);
+        top: 10vh;
+        left: 1vh;
+    }
+}
 
    
 
 
-
-
-
-
-        .table{
-            font-size: 2vh;
-            position: absolute;
-            left: -50vh;
-            top: 55vh;
-            width: 50%;
-            color: rgb(250, 250, 250);
-
-        }
-
-        @media (max-width:568px){
-            .table{
-                position: relative;
-                top: 50vh;
-                left:- 61vh;
-                color: rgb(255, 255, 255);
-            }
-        
-
-        
-        
-        .tabla{
-            position: relative;
-            right: 30vh;
-            top: 35vh;
-            width: 40vh;
-        }
-    }
-
-        /*normal escritorio*/
-        @media (min-width:869px){
-            .tabla{
-                left:  10vh;
-                top: 8vh;
-                width: 50vh;                
-                }
-                .table{
-                    color: rgb(255, 255, 255);
-                    position: relative;
-                    left: 1vh;
-                    
-                    width:70vh;
-                    top:15vh;
-                } 
-            }
-    }
