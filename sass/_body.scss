@@ -1,151 +1,107 @@
-.body{
-background-image: url(..//img/fondo5.jpg); 
-width: 100%;
+.body {
+  background-image: url(..//img/fondo5.jpg);
+  width: 100%;
+}
+
+.fotind {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+
+  position: relative;
+  left: 70vh;
+  top: 20vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 768px) {
+  .fotind {
+    position: relative;
+    left: 15vh;
+    width: 20vh;
+  }
+}
+
+
+/*envios*/
+
+
+
+  .mapa1 {
+    border-radius: 20;
+    border-radius: 20px;
+    position: relative;
+    right: 12vh;
+    left: 3vh;
+    top: 20vh;
+    border: 2px white solid;
+    box-shadow: 5px 5px 50px rgb(6, 95, 197);
+  }
+
+
+
+
+@media (max-width:1390px) {
+  .mapa1{
+  left: 10vh;
+  width: 70%;
+  height: 30vh;
+  transition: 1s;
+  }
+}
+
+@media (max-width:900px){
 
 }
 
 
 
+.fotenv {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
 
-
-
-
-.fotind{
-    font-size: 2vh;
-    width: 25%;
-    box-shadow: 10px 10px 101px rgb(7, 155, 253);
-
-    position: relative;
-    left: 70vh;
-    top: 20vh;
-    border: 2px solid white;
-    border-radius: 15px;
-    text-align: center;
-    background-color: rgba(0, 119, 255, 0.466);
-     a {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        text-transform: capitalize;
-    }
+  position: relative;
+  left: 70vh;
+  top: 18vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+  }
+}
+@media (max-width:1390px){
+  .fotenv{
+    left: 40vh;
+    top: 75vh;
+    transition: 1s;
+  }
 }
 
 @media (max-width:768px){
-    .fotind{
-        position: relative;
-        left: 15vh;
-        width: 20vh;
-    }
+  .fotenv{
+    left: 20vh;
+    top: 95vh;
+    transition: 1s;
+  }
 }
 
-
-
-
- /*envios*/
-
-.mapa{
-    display: flex;
-    position: relative;
-    border-radius: 20mp;
-    width: 50%;
-
-
-
-
-    .mapa1{
-        border-radius: 20;
-        border-radius: 20px;
-        position: absolute;
-        right: 12vh;
-        top: 25vh;
-        border: 2px white solid;
-        box-shadow: 5px 5px 50px rgb(6, 95, 197);
-
-
-
-        
-
-    }
-
+@media (max-width:450px){
+  .fotenv{
+    left: 15vh;
+    top: 85vh;
+    transition: 1s;
+  }
 }
-
-@media (max-width:1300px) {
-    .mapa{
-        position: relative;
-        left: 25vh;
-    }
-    .mapa1{
-        width: 35vh;
-        height: 35vh;
-    }
-}
-
-@media (min-width:769px) {
-    .mapa{
-        position: relative;
-        left: 10vh;
-        width: 1vh;
-    }
-
-    .mapa1{
-        width: 50vh;
-        height: 50vh;
-        position: relative;
-        left: 1vh;
-    }
-    
-}
-
-
-/*tabla*/
-
-
-
-
-   .table{
-    width: 90vh;
-    left: 70vh;
-    top: 25vh;
-    font-size: 3vh;
-    background-color: rgba(0, 0, 0, 0.699);
-    color: white;
-    border: 2px solid rgb(172, 222, 255);
-    box-shadow: 5px 5px 50px rgb(6, 95, 197);
-    position: relative;
-
-
-   }
-
-   @media (max-width:1338px){
-        .table{
-            position: relative;
-            left: 10vh;
-            top: 47vh;
-            width:50vh ;
-            transition: 1s;
-            color: rgb(255, 255, 255);
-        }
-
-        .text{
-            position: relative;
-            left: 10vh;
-            top:110vh; 
-        }
-   }
-   @media (max-width:767px){
-    .table{
-        color: rgb(255, 255, 255);
-        top: 30vh;
-    }
-   }
-
-   @media (max-width:499px){
-    .table{
-        color: rgb(255, 255, 255);
-        top: 10vh;
-        left: 1vh;
-    }
-}
-
-   
-
-

@@ -1,0 +1,33 @@
+    .laca{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 20vh;
+        
+
+
+    .img-fluid{
+    border: 2px solid rgb(45, 143, 255);    
+    display: inline-block;
+    width: 30vh ;
+    height: 30vh ;
+    top: 25vh;
+    object-fit: cover;
+    align-items: center;
+    margin: 5vh;
+    border-radius: 3vh;
+
+
+    &:hover{
+        bottom: 2vh;
+        box-shadow: 10px 10px 101px rgb(7, 155, 253);
+        border: 2px solid white;
+        transition: 0.2s;
+        width: 40vh;
+        height: 40vh;
+
+
+    }
+    }
+
+}

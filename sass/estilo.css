@@ -53,6 +53,14 @@
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  .navbar .bg-light {
+    width: 100%;
+  }
+  .navbar .navbar-brand {
+    width: 100%;
+  }
+}
 
 .row {
   position: relative;
@@ -80,6 +88,11 @@
   border-radius: 15px;
 }
 
+@media (max-width: 1500px) {
+  .card-text {
+    font-size: 1.5vh;
+  }
+}
 .h1t {
   position: relative;
   color: rgb(255, 255, 255);
@@ -130,28 +143,89 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   width: 10%;
-  position: relative;
-  left: 10vh;
-  top: 15vh;
-  text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+  position: absolute;
+  left: 6vh;
+  top: 20vh;
+  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
 
+@media (max-width: 1390px) {
+  .ht2 {
+    top: -65vh;
+    left: 50vh;
+  }
+}
 .text {
+  display: flex;
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
   font-size: 3vh;
   position: relative;
-  left: 70vh;
+  left: 80vh;
   color: white;
-  top: 18vh;
+  top: 8vh;
   text-transform: uppercase;
   font-family: serif;
   width: 50%;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1390px) {
   .text {
-    position: relative;
+    left: 30vh;
     top: 25vh;
+    transition: 1s;
+  }
+}
+@media (max-width: 930px) {
+  .text {
+    left: 10vh;
+    width: 70%;
+  }
+}
+.inf {
+  display: inline-block;
+  position: absolute;
+  left: 80vh;
+  top: 30vh;
+  font-size: 3vh;
+  color: white;
+  border: 2px solid rgb(82, 142, 255);
+  padding: 1.5vh;
+  background-color: rgba(0, 0, 0, 0.685);
+  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+  text-transform: capitalize;
+}
+
+@media (max-width: 1390px) {
+  .inf {
+    display: block;
+    position: absolute;
+    left: 25vh;
+    top: 90vh;
+    transition: 1s;
+  }
+}
+@media (max-width: 930px) {
+  .inf {
+    left: 10vh;
+    width: 60%;
+    font-size: 2vh;
+    top: 96vh;
+  }
+}
+@media (max-width: 700px) {
+  .inf {
+    left: 10vh;
+    width: 60%;
+    font-size: 2vh;
+    top: 95vh;
+  }
+}
+@media (max-width: 520px) {
+  .inf {
+    left: 10vh;
+    width: 60%;
+    font-size: 2vh;
+    top: 120vh;
   }
 }
 .body {
@@ -185,83 +259,87 @@
   }
 }
 /*envios*/
-.mapa {
-  display: flex;
-  position: relative;
-  border-radius: 20mp;
-  width: 50%;
-}
-.mapa .mapa1 {
+.mapa1 {
   border-radius: 20;
   border-radius: 20px;
-  position: absolute;
+  position: relative;
   right: 12vh;
-  top: 25vh;
+  left: 3vh;
+  top: 20vh;
   border: 2px white solid;
   box-shadow: 5px 5px 50px rgb(6, 95, 197);
 }
 
-@media (max-width: 1300px) {
-  .mapa {
-    position: relative;
-    left: 25vh;
-  }
+@media (max-width: 1390px) {
   .mapa1 {
-    width: 35vh;
-    height: 35vh;
-  }
-}
-@media (min-width: 769px) {
-  .mapa {
-    position: relative;
     left: 10vh;
-    width: 1vh;
-  }
-  .mapa1 {
-    width: 50vh;
-    height: 50vh;
-    position: relative;
-    left: 1vh;
+    width: 70%;
+    height: 30vh;
+    transition: 1s;
   }
 }
-/*tabla*/
-.table {
-  width: 90vh;
-  left: 70vh;
-  top: 25vh;
-  font-size: 3vh;
-  background-color: rgba(0, 0, 0, 0.699);
-  color: white;
-  border: 2px solid rgb(172, 222, 255);
-  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+.fotenv {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
   position: relative;
+  left: 70vh;
+  top: 18vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+}
+.fotenv a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
 }
 
-@media (max-width: 1338px) {
-  .table {
-    position: relative;
-    left: 10vh;
-    top: 47vh;
-    width: 50vh;
+@media (max-width: 1390px) {
+  .fotenv {
+    left: 40vh;
+    top: 75vh;
     transition: 1s;
-    color: rgb(255, 255, 255);
-  }
-  .text {
-    position: relative;
-    left: 10vh;
-    top: 110vh;
   }
 }
-@media (max-width: 767px) {
-  .table {
-    color: rgb(255, 255, 255);
-    top: 30vh;
+@media (max-width: 768px) {
+  .fotenv {
+    left: 20vh;
+    top: 95vh;
+    transition: 1s;
   }
 }
-@media (max-width: 499px) {
-  .table {
-    color: rgb(255, 255, 255);
-    top: 10vh;
-    left: 1vh;
+@media (max-width: 450px) {
+  .fotenv {
+    left: 15vh;
+    top: 85vh;
+    transition: 1s;
   }
+}
+.laca {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20vh;
+}
+.laca .img-fluid {
+  border: 2px solid rgb(45, 143, 255);
+  display: inline-block;
+  width: 30vh;
+  height: 30vh;
+  top: 25vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+  margin: 5vh;
+  border-radius: 3vh;
+}
+.laca .img-fluid:hover {
+  bottom: 2vh;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  border: 2px solid white;
+  transition: 0.2s;
+  width: 40vh;
+  height: 40vh;
 }/*# sourceMappingURL=estilo.css.map */

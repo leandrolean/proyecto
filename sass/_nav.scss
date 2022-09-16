@@ -78,4 +78,14 @@
     }
 
 }
+
+@media (max-width:500px){
+   .bg-light{
+    width: 100%;
+  }
+  .navbar-brand{
+    width: 100%;
+
+  }
+}
 }

@@ -23,12 +23,6 @@
 
     }
         
-
-    
-
-
-
-
         .card-img-top{
             border-radius: 15px;
             
@@ -36,6 +30,13 @@
         }
     
     }
+
+    @media (max-width:1500px){
+        .card-text{
+            font-size: 1.5vh;
+        }
+    }
+        
 
 
     
