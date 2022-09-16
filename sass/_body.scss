@@ -58,8 +58,10 @@
   }
 }
 
-@media (max-width:900px){
-
+@media (max-width:500px){
+  .mapa1{
+    left: 7vh;
+  }
 }
 
 
@@ -100,7 +102,7 @@
 
 @media (max-width:450px){
   .fotenv{
-    left: 15vh;
+    left: 12vh;
     top: 85vh;
     transition: 1s;
   }
