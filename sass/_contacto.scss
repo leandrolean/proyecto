@@ -1,0 +1,47 @@
+.contacto {
+	padding: 5% 15% 1%;
+	position: absolute;
+	top: 20vh;
+	left: 50vh;
+	margin: auto;
+	font-family: serif sans-serif;
+	color: white;
+	text-shadow: 5px 2px 2px black;
+	font-size: 100%;
+	text-transform: uppercase;
+	
+}
+
+.control {
+	display: flex;
+	position: relative;
+	right: 10vh;
+	width: 50vh;
+	padding: 3% 3% ;
+	border-radius: 100px;
+	margin-top: 8%;
+	margin-bottom: 11%;
+	
+
+	box-shadow: 1px 12px 10px black;
+	
+	
+}
+
+
+
+.registrate{ 
+	height: 10%;
+	width: 90%;
+	display: inline-block;
+	position: absolute;
+	top:20vh;
+	left:2%;
+	bottom: 2%;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 5px 5px 3px black;
+	letter-spacing: 5px;
+	font-size: 170%;
+
+}	
