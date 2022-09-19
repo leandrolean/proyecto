@@ -52,13 +52,81 @@
 @media (max-width:1390px) {
   .mapa1{
   left: 10vh;
-  width: 70%;
+  width: 80%;
   height: 30vh;
   transition: 1s;
   }
+  .ht2{
+    top: 20vh;
+  }
+
+  .text{
+    left: 25vh;
+    font-size: 3vh;
+    width: 100vh;
+  }
+
+  .inf{
+    top: 85vh;
+    width: 80vh;
+    font-size: 3vh;
+    left: 40vh;
+  }
+
+
 }
 
-@media (max-width:500px){
+@media (max-width:1090px) {
+    .text{
+      left: 15vh;
+    }
+    .inf{
+      left: 25vh;
+      top:85vh ;
+    }
+}
+
+@media (max-width:960px){
+  .text{
+    font-size: 3vh;
+    left: 20vh;
+    width: 70vh;
+  }
+
+  .inf{
+    left: 12vh;
+    top: 90vh;
+
+  }
+
+}
+
+@media (max-width:788px){
+  .text{
+    left: 5vh;
+    width: 50vh;
+    font-size: 2.5vh;
+  }
+
+.mapa1{
+  left: 5vh;
+}
+
+.inf{
+  left: 7vh;
+  width: 50vh;
+  font-size: 2vh;
+  text-align: center;
+}
+.ht2{
+  left: 3vh;
+  top: 25vh;
+}
+}
+
+
+
+@media (max-width:650px){
   .mapa1{
     left: 7vh;
   }
@@ -86,7 +154,7 @@
 }
 @media (max-width:1390px){
   .fotenv{
-    left: 40vh;
+    left: 60vh;
     top: 75vh;
     transition: 1s;
   }
@@ -95,17 +163,36 @@
 @media (max-width:768px){
   .fotenv{
     left: 20vh;
-    top: 95vh;
+    top: 70vh;
     transition: 1s;
+    width: 30vh;
   }
 }
 
-@media (max-width:450px){
+@media (max-width:480px){
   .fotenv{
     left: 12vh;
-    top: 85vh;
+    top: 75vh;
     transition: 1s;
+    width: 30vh;
+  }
+  .inf{
+    top: 99vh;
+    left: 2vh;
+    width: 40vh;
+    
+  }
+  .text{
+    left: 3vh;
+    width: 35vh;
+  }
+
+  .mapa1{
+    left: 2vh;
+    width: 30vh;
   }
 }
 
 }
+
+

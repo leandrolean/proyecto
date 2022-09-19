@@ -294,12 +294,66 @@
 @media (max-width: 1390px) {
   .body .mapa1 {
     left: 10vh;
-    width: 70%;
+    width: 80%;
     height: 30vh;
     transition: 1s;
   }
+  .body .ht2 {
+    top: 20vh;
+  }
+  .body .text {
+    left: 25vh;
+    font-size: 3vh;
+    width: 100vh;
+  }
+  .body .inf {
+    top: 85vh;
+    width: 80vh;
+    font-size: 3vh;
+    left: 40vh;
+  }
 }
-@media (max-width: 500px) {
+@media (max-width: 1090px) {
+  .body .text {
+    left: 15vh;
+  }
+  .body .inf {
+    left: 25vh;
+    top: 85vh;
+  }
+}
+@media (max-width: 960px) {
+  .body .text {
+    font-size: 3vh;
+    left: 20vh;
+    width: 70vh;
+  }
+  .body .inf {
+    left: 12vh;
+    top: 90vh;
+  }
+}
+@media (max-width: 788px) {
+  .body .text {
+    left: 5vh;
+    width: 50vh;
+    font-size: 2.5vh;
+  }
+  .body .mapa1 {
+    left: 5vh;
+  }
+  .body .inf {
+    left: 7vh;
+    width: 50vh;
+    font-size: 2vh;
+    text-align: center;
+  }
+  .body .ht2 {
+    left: 3vh;
+    top: 25vh;
+  }
+}
+@media (max-width: 650px) {
   .body .mapa1 {
     left: 7vh;
   }
@@ -323,7 +377,7 @@
 }
 @media (max-width: 1390px) {
   .body .fotenv {
-    left: 40vh;
+    left: 60vh;
     top: 75vh;
     transition: 1s;
   }
@@ -331,15 +385,30 @@
 @media (max-width: 768px) {
   .body .fotenv {
     left: 20vh;
-    top: 95vh;
+    top: 70vh;
     transition: 1s;
+    width: 30vh;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .body .fotenv {
     left: 12vh;
-    top: 85vh;
+    top: 75vh;
     transition: 1s;
+    width: 30vh;
+  }
+  .body .inf {
+    top: 99vh;
+    left: 2vh;
+    width: 40vh;
+  }
+  .body .text {
+    left: 3vh;
+    width: 35vh;
+  }
+  .body .mapa1 {
+    left: 2vh;
+    width: 30vh;
   }
 }
 
@@ -394,16 +463,97 @@
 @media (max-width: 1390px) {
   .laca {
     flex-direction: column;
-    left: 40vh;
+    left: 20vh;
+    width: 50vh;
+  }
+  .laca .img-fluid {
+    width: 25vh;
+    height: 25vh;
+    transition: 1s;
   }
   .infolaq {
-    width: 30%;
-    left: 100vh;
-    top: 60vh;
+    width: 50%;
+    font-size: 5vh;
+    left: 60vh;
+    top: 40vh;
+    transition: 1s;
   }
   .volver {
+    top: 130vh;
+    left: 90vh;
+    color: white;
+  }
+}
+.titlaq {
+  left: 52vh;
+}
+
+@media (max-width: 1190px) {
+  .laca {
+    left: 8vh;
+  }
+  .titlaq {
+    font-size: 4vh;
+    left: 10vh;
+  }
+  .volver {
+    top: 145vh;
+    left: 10vh;
+  }
+  .infolaq {
+    font-size: 4.5vh;
+    left: 45vh;
+  }
+}
+@media (max-width: 740px) {
+  .volver {
+    top: 130vh;
+    left: 60vh;
+  }
+  .laca {
+    left: 2vh;
+  }
+  .infolaq {
+    left: 35vh;
+    font-size: 3.5vh;
+    top: 45vh;
+  }
+}
+@media (max-width: 680px) {
+  .volver {
     top: 140vh;
-    left: 100vh;
+    left: 5vh;
+  }
+}
+@media (max-width: 600px) {
+  .laca {
+    left: 20vh;
+    width: 35vh;
+  }
+  .infolaq {
+    top: 145vh;
+    left: 10vh;
+    width: 50vh;
+  }
+  .volver {
+    top: 208vh;
+  }
+}
+@media (max-width: 500px) {
+  .infolaq {
+    font-size: 2.5vh;
+    width: 30vh;
+    left: 10vh;
+    top: 145vh;
+  }
+  .laca {
+    width: 30vh;
+    left: 7vh;
+  }
+  .titlaq {
+    font-size: 3vh;
+    top: 25vh;
+    left: 7vh;
   }
 }
 .contacto {
