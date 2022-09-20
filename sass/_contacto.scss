@@ -248,7 +248,7 @@
 	}
 }
 
-@media (max-width:820px){
+@media (max-width:820px) and (min-width:576px){
 	.registrate{
 		left: 5vh;
 		width: 55vh;
@@ -260,7 +260,7 @@
 		left: 15vh;
 	}
 	.imgcont{
-		top: 105vh;
+		top: 109vh;
 		left: 10vh;
 		.imgcon{
 			width: 60vh;
@@ -271,18 +271,20 @@
 		top: 55vh;
 	}
 }
-@media (max-width:600px){
+@media (max-width:574px){
 	.registrate{
 		left: 2vh;
 		width: 35vh;
+		top: -20vh;
 	}
 	.form{
 		width: 10vh;
 	.form1{
-		left: 2vh;
+		left: -33vh;
 		width: 30vh;
+		top: 30vh;
 			.mb-3{
-				width: 30vh;
+				width: 40vh;
 			}
 		}
 	}
@@ -290,10 +292,11 @@
 			left: 2vh;
 			width: 40vh;
 			height: 30vh;
+			top:33vh ;
 		}
 		.imgcont{
 			left: 2vh;
-			top: 130vh;
+			top: 120vh;
 			width: 30vh;
 			.imgcon{
 				width: 40vh;
@@ -301,10 +304,33 @@
 			}
 		}
 		.fotcont{
-			top: 55vh;
+			top: 70vh;
 			left: 10vh;
 			width: 20vh;
 		}
 
 	}
 
+	@media (max-width:524px){
+		.registrate{
+			top:15vh;
+		}
+		.form{
+			left: 1vh;
+			.form1{
+				left: 2vh;
+				top: 15vh;
+			}
+		}
+		.titcontacto{
+			top: 20vh;
+		}
+		.imgcont{
+			top: 130vh;
+		}
+		.fotcont{
+			top: 60vh;
+		}
+	}
+
+	
