@@ -70,7 +70,7 @@
     top: 85vh;
     width: 80vh;
     font-size: 3vh;
-    left: 40vh;
+    left: 25vh;
   }
 
 
@@ -81,7 +81,7 @@
       left: 15vh;
     }
     .inf{
-      left: 25vh;
+      left: 15vh;
       top:85vh ;
     }
 }
@@ -113,7 +113,7 @@
 }
 
 .inf{
-  left: 7vh;
+  left: 1vh;
   width: 50vh;
   font-size: 2vh;
   text-align: center;
@@ -194,5 +194,31 @@
 }
 
 }
+
+.fotcont{
+    font-size: 2vh;
+    width: 25%;
+    box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  
+    position: relative;
+    left: 70vh;
+    top: 84vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 119, 255, 0.466);
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      text-transform: capitalize;
+    }
+  }
+@media (max-width:1390px){
+  .fotcont{
+    top: 85vh;
+    left: 90vh;
+  }
+}
+  
 
 

@@ -310,7 +310,7 @@
     top: 85vh;
     width: 80vh;
     font-size: 3vh;
-    left: 40vh;
+    left: 25vh;
   }
 }
 @media (max-width: 1090px) {
@@ -318,7 +318,7 @@
     left: 15vh;
   }
   .body .inf {
-    left: 25vh;
+    left: 15vh;
     top: 85vh;
   }
 }
@@ -343,7 +343,7 @@
     left: 5vh;
   }
   .body .inf {
-    left: 7vh;
+    left: 1vh;
     width: 50vh;
     font-size: 2vh;
     text-align: center;
@@ -412,6 +412,30 @@
   }
 }
 
+.fotcont {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  position: relative;
+  left: 70vh;
+  top: 84vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+}
+.fotcont a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+@media (max-width: 1390px) {
+  .fotcont {
+    top: 85vh;
+    left: 90vh;
+  }
+}
 .laca {
   display: flex;
   justify-content: center;
@@ -556,31 +580,6 @@
     left: 7vh;
   }
 }
-.contacto {
-  padding: 5% 15% 1%;
-  position: absolute;
-  top: 20vh;
-  left: 50vh;
-  margin: auto;
-  font-family: serif sans-serif;
-  color: white;
-  text-shadow: 5px 2px 2px black;
-  font-size: 100%;
-  text-transform: uppercase;
-}
-
-.control {
-  display: flex;
-  position: relative;
-  right: 10vh;
-  width: 50vh;
-  padding: 3% 3%;
-  border-radius: 100px;
-  margin-top: 8%;
-  margin-bottom: 11%;
-  box-shadow: 1px 12px 10px black;
-}
-
 .registrate {
   height: 10%;
   width: 90%;
@@ -594,4 +593,152 @@
   text-shadow: 5px 5px 3px black;
   letter-spacing: 5px;
   font-size: 170%;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+.form {
+  display: flex;
+  position: absolute;
+  top: 27vh;
+  left: 20vh;
+  width: 50vh;
+}
+.form .mb-3 {
+  width: 50vh;
+  font-size: 3vh;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+.form .btn-primary {
+  text-transform: capitalize;
+  background-color: rgba(27, 84, 190, 0.438);
+  box-shadow: 5px 5px 8px rgba(98, 171, 255, 0.774);
+}
+
+.titcontacto {
+  color: white;
+  font-size: 3vh;
+  width: 60vh;
+  position: absolute;
+  top: 65vh;
+  left: 20vh;
+  height: 40vh;
+  font-weight: 400;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+@media (max-width: 1390px) {
+  .titcontacto {
+    top: 73vh;
+    left: 10vh;
+    transition: 1s;
+  }
+}
+/*social*/
+.social {
+  color: white;
+  position: absolute;
+  top: 30vh;
+  left: 90vh;
+}
+.social .face {
+  color: white;
+  font-size: 4vh;
+  padding: 3vh;
+  width: 70vh;
+  text-transform: capitalize;
+}
+.social .facelef {
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 4px rgba(111, 161, 253, 0.89);
+  font-weight: 400;
+  font-size: 6vh;
+  text-decoration: none;
+  left: 50vh;
+}
+.social .inslef {
+  text-decoration: none;
+  color: white;
+  text-shadow: 5px 5px 4px rgba(160, 77, 255, 0.89);
+  font-size: 6vh;
+  font-weight: 400;
+}
+.social .wslef {
+  text-decoration: none;
+  font-size: 6vh;
+  font-weight: 400;
+  color: white;
+  text-shadow: 5px 5px 4px rgba(39, 252, 128, 0.89);
+}
+
+@media (max-width: 1390px) {
+  .form {
+    left: 10vh;
+    transition: 1s;
+    top: 30vh;
+  }
+  .social {
+    left: 75vh;
+    transition: 1s;
+  }
+}
+@media (max-width: 1230px) {
+  .social {
+    top: 30vh;
+    left: 65vh;
+    transition: 1s;
+  }
+}
+@media (max-width: 1130px) {
+  .social {
+    top: 100vh;
+    left: 8vh;
+  }
+  .fotcont {
+    left: 20vh;
+    top: 140vh;
+  }
+}
+@media (max-width: 768px) {
+  .form {
+    top: 40vh;
+    left: 3vh;
+    width: 20vh;
+  }
+  .form .mb-3 {
+    font-size: 2vh;
+    width: 30vh;
+  }
+  .registrate {
+    font-size: 2.5vh;
+    top: 25vh;
+  }
+  .titcontacto {
+    font-size: 2.5vh;
+    left: 3vh;
+    top: 77vh;
+    width: 35vh;
+  }
+  .social {
+    width: 30vh;
+    top: 110vh;
+    left: 2vh;
+  }
+  .social .face {
+    font-size: 2vh;
+    width: 40vh;
+    left: 1vh;
+  }
+  .social .facelef {
+    font-size: 4vh;
+  }
+  .social .inslef {
+    font-size: 4vh;
+  }
+  .social .wslef {
+    font-size: 4vh;
+  }
+  .fotcont {
+    left: 5vh;
+  }
 }/*# sourceMappingURL=estilo.css.map */
