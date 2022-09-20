@@ -143,9 +143,9 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   width: 10%;
-  position: absolute;
+  position: relative;
   left: 6vh;
-  top: 20vh;
+  top: 12vh;
   text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
 
@@ -287,7 +287,7 @@
   position: relative;
   right: 12vh;
   left: 3vh;
-  top: 20vh;
+  top: 15vh;
   border: 2px white solid;
   box-shadow: 5px 5px 50px rgb(6, 95, 197);
 }
@@ -299,15 +299,17 @@
     transition: 1s;
   }
   .body .ht2 {
-    top: 20vh;
+    top: 10vh;
+    left: 5vh;
   }
   .body .text {
+    top: 20vh;
     left: 25vh;
     font-size: 3vh;
     width: 100vh;
   }
   .body .inf {
-    top: 85vh;
+    top: 90vh;
     width: 80vh;
     font-size: 3vh;
     left: 25vh;
@@ -332,6 +334,9 @@
     left: 12vh;
     top: 90vh;
   }
+  .body .ht2 {
+    top: 7vh;
+  }
 }
 @media (max-width: 788px) {
   .body .text {
@@ -350,7 +355,7 @@
   }
   .body .ht2 {
     left: 3vh;
-    top: 25vh;
+    top: 7vh;
   }
 }
 @media (max-width: 650px) {
@@ -364,7 +369,7 @@
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
   position: relative;
   left: 70vh;
-  top: 18vh;
+  top: 15vh;
   border: 2px solid white;
   border-radius: 15px;
   text-align: center;
@@ -385,9 +390,13 @@
 @media (max-width: 768px) {
   .body .fotenv {
     left: 20vh;
-    top: 70vh;
+    top: 63vh;
     transition: 1s;
     width: 30vh;
+  }
+  .body .inf {
+    top: 109;
+    left: 5vh;
   }
 }
 @media (max-width: 480px) {
@@ -398,7 +407,7 @@
     width: 30vh;
   }
   .body .inf {
-    top: 99vh;
+    top: 105vh;
     left: 2vh;
     width: 40vh;
   }
@@ -560,7 +569,7 @@
     width: 50vh;
   }
   .volver {
-    top: 208vh;
+    top: 218vh;
   }
 }
 @media (max-width: 500px) {
