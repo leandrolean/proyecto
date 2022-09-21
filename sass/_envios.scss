@@ -1,0 +1,71 @@
+.ht2{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 10%;
+    position: absolute;
+    left: 6vh;
+    top: 20vh;
+    text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
+
+}
+
+.mapa1 {
+  border-radius: 20;
+  border-radius: 20px;
+  position: absolute;
+  right: 12vh;
+  left: 3vh;
+  top: 35vh;
+  border: 2px white solid;
+  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+}
+/*tabla envios*/
+
+.inf {
+  display: inline-block;
+  font-size: 3vh;
+  position: absolute;
+  top: 32vh;
+  left: 80vh;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(82, 142, 255);
+  padding: 1.5vh;
+  background-color: rgba(0, 0, 0, 0.685);
+  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+  text-transform: capitalize;
+}
+
+.text {
+  display: inline-block;
+  text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+  font-size: 3vh;
+  position: absolute;
+  left: 80vh;
+  color: white;
+  top: 68vh;
+  text-transform: uppercase;
+  font-family: serif;
+  width: 50%;
+}
+
+.fotenv {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  position: relative;
+  left: 70vh;
+  top: 85vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+  }
+}

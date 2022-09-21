@@ -47,44 +47,33 @@
 }
 
 .ht2{
+    display: inline-block;
     color: rgb(255, 255, 255);
     font-size: 5vh;
     font-family: serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     width: 10%;
-    position: relative;
+    position: absolute;
     left: 6vh;
-    top: 12vh;
+    top: 20vh;
     text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 
 }
 
-@media (max-width:1390px){
-    .ht2{
-        top: -65vh;
-        left: 50vh;
-    }
-}
+
 
 .text{
-    display: flex;
+    display: inline-block;
     text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
     font-size: 3vh;
-    position: relative;
+    position: absolute;
     left: 80vh;
     color: white;
-    top: 8vh;
+    top: 68vh;
     text-transform: uppercase;
     font-family: serif;
     width: 50%;
-}
-@media (max-width:1390px){
-    .text{
-        left: 30vh;
-        top: 25vh;
-        transition: 1s;
-    }
 }
 
 @media (max-width:930px){
@@ -95,54 +84,6 @@
 }
 
 
-.inf{
-    display: inline-block;
-    position: absolute;
-    left: 80vh;
-    top: 30vh;
-    font-size: 3vh;
-    color: white;
-    border: 2px solid rgb(82, 142, 255);
-    padding: 1.5vh;
-    background-color: rgba(0, 0, 0, 0.685);
-    box-shadow: 5px 5px 50px rgb(6, 95, 197);
-    text-transform: capitalize;
-}
-
-@media (max-width:1390px){
-    .inf{
-        display: block;
-        position: absolute;
-        left: 25vh;
-        top: 90vh;
-        transition: 1s;
-    }
-}
-
-@media (max-width:930px){
-    .inf{
-        left:10vh;
-        width: 60%;
-        font-size: 2vh;
-        top:96vh ;
-    }
-}
-@media (max-width:700px){
-    .inf{
-        left:10vh;
-        width: 60%;
-        font-size: 2vh;
-        top: 95vh;
-    }
-}
-@media (max-width:520px){
-    .inf{
-        left:10vh;
-        width: 60%;
-        font-size: 2vh;
-        top: 120vh;
-    }
-}
 
 /*laqueado*/
 

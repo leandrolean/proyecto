@@ -137,95 +137,36 @@
 }
 
 .ht2 {
+  display: inline-block;
   color: rgb(255, 255, 255);
   font-size: 5vh;
   font-family: serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   width: 10%;
-  position: relative;
+  position: absolute;
   left: 6vh;
-  top: 12vh;
+  top: 20vh;
   text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
 
-@media (max-width: 1390px) {
-  .ht2 {
-    top: -65vh;
-    left: 50vh;
-  }
-}
 .text {
-  display: flex;
+  display: inline-block;
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
   font-size: 3vh;
-  position: relative;
+  position: absolute;
   left: 80vh;
   color: white;
-  top: 8vh;
+  top: 68vh;
   text-transform: uppercase;
   font-family: serif;
   width: 50%;
 }
 
-@media (max-width: 1390px) {
-  .text {
-    left: 30vh;
-    top: 25vh;
-    transition: 1s;
-  }
-}
 @media (max-width: 930px) {
   .text {
     left: 10vh;
     width: 70%;
-  }
-}
-.inf {
-  display: inline-block;
-  position: absolute;
-  left: 80vh;
-  top: 30vh;
-  font-size: 3vh;
-  color: white;
-  border: 2px solid rgb(82, 142, 255);
-  padding: 1.5vh;
-  background-color: rgba(0, 0, 0, 0.685);
-  box-shadow: 5px 5px 50px rgb(6, 95, 197);
-  text-transform: capitalize;
-}
-
-@media (max-width: 1390px) {
-  .inf {
-    display: block;
-    position: absolute;
-    left: 25vh;
-    top: 90vh;
-    transition: 1s;
-  }
-}
-@media (max-width: 930px) {
-  .inf {
-    left: 10vh;
-    width: 60%;
-    font-size: 2vh;
-    top: 96vh;
-  }
-}
-@media (max-width: 700px) {
-  .inf {
-    left: 10vh;
-    width: 60%;
-    font-size: 2vh;
-    top: 95vh;
-  }
-}
-@media (max-width: 520px) {
-  .inf {
-    left: 10vh;
-    width: 60%;
-    font-size: 2vh;
-    top: 120vh;
   }
 }
 /*laqueado*/
@@ -255,7 +196,7 @@
 .body {
   background-image: url(..//img/ffondo1.jpg);
   width: 100%;
-  /*envios*/
+  position: relative;
 }
 .body .fotind {
   font-size: 2vh;
@@ -281,170 +222,21 @@
     width: 20vh;
   }
 }
-.body .mapa1 {
-  border-radius: 20;
-  border-radius: 20px;
-  position: relative;
-  right: 12vh;
-  left: 3vh;
-  top: 15vh;
-  border: 2px white solid;
-  box-shadow: 5px 5px 50px rgb(6, 95, 197);
-}
-@media (max-width: 1390px) {
-  .body .mapa1 {
-    left: 10vh;
-    width: 80%;
-    height: 30vh;
-    transition: 1s;
+@media (max-width: 568px) {
+  .body .h1t {
+    width: 25vh;
   }
-  .body .ht2 {
-    top: 10vh;
-    left: 5vh;
-  }
-  .body .text {
-    top: 20vh;
-    left: 25vh;
-    font-size: 3vh;
-    width: 100vh;
-  }
-  .body .inf {
-    top: 90vh;
-    width: 80vh;
-    font-size: 3vh;
-    left: 25vh;
-  }
-}
-@media (max-width: 1090px) {
-  .body .text {
-    left: 15vh;
-  }
-  .body .inf {
-    left: 15vh;
-    top: 85vh;
-  }
-}
-@media (max-width: 960px) {
-  .body .text {
-    font-size: 3vh;
-    left: 20vh;
-    width: 70vh;
-  }
-  .body .inf {
-    left: 12vh;
-    top: 90vh;
-  }
-  .body .ht2 {
-    top: 7vh;
-  }
-}
-@media (max-width: 788px) {
-  .body .text {
-    left: 5vh;
-    width: 50vh;
-    font-size: 2.5vh;
-  }
-  .body .mapa1 {
-    left: 5vh;
-  }
-  .body .inf {
+  .body .row {
+    width: 30vh;
     left: 1vh;
-    width: 50vh;
-    font-size: 2vh;
-    text-align: center;
   }
-  .body .ht2 {
-    left: 3vh;
-    top: 7vh;
-  }
-}
-@media (max-width: 650px) {
-  .body .mapa1 {
-    left: 7vh;
-  }
-}
-.body .fotenv {
-  font-size: 2vh;
-  width: 25%;
-  box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: relative;
-  left: 70vh;
-  top: 15vh;
-  border: 2px solid white;
-  border-radius: 15px;
-  text-align: center;
-  background-color: rgba(0, 119, 255, 0.466);
-}
-.body .fotenv a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  text-transform: capitalize;
-}
-@media (max-width: 1390px) {
-  .body .fotenv {
-    left: 60vh;
-    top: 75vh;
-    transition: 1s;
-  }
-}
-@media (max-width: 768px) {
-  .body .fotenv {
-    left: 20vh;
-    top: 63vh;
-    transition: 1s;
-    width: 30vh;
-  }
-  .body .inf {
-    top: 109;
-    left: 5vh;
-  }
-}
-@media (max-width: 480px) {
-  .body .fotenv {
-    left: 12vh;
-    top: 75vh;
-    transition: 1s;
-    width: 30vh;
-  }
-  .body .inf {
-    top: 105vh;
-    left: 2vh;
-    width: 40vh;
-  }
-  .body .text {
-    left: 3vh;
-    width: 35vh;
-  }
-  .body .mapa1 {
-    left: 2vh;
-    width: 30vh;
+  .body .fotind {
+    left: 10vh;
+    width: 15vh;
   }
 }
 
-.fotcont {
-  font-size: 2vh;
-  width: 25%;
-  box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: relative;
-  left: 70vh;
-  top: 84vh;
-  border: 2px solid white;
-  border-radius: 15px;
-  text-align: center;
-  background-color: rgba(0, 119, 255, 0.466);
-}
-.fotcont a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  text-transform: capitalize;
-}
-
-@media (max-width: 1390px) {
-  .fotcont {
-    top: 85vh;
-    left: 90vh;
-  }
-}
+/*envios*/
 .laca {
   display: flex;
   justify-content: center;
@@ -893,4 +685,79 @@
   .fotcont {
     top: 60vh;
   }
+}
+@media (max-width: 1390px) {
+  .text {
+    color: red;
+  }
+}
+.ht2 {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 5vh;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  width: 10%;
+  position: absolute;
+  left: 6vh;
+  top: 20vh;
+  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
+}
+
+.mapa1 {
+  border-radius: 20;
+  border-radius: 20px;
+  position: absolute;
+  right: 12vh;
+  left: 3vh;
+  top: 35vh;
+  border: 2px white solid;
+  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+}
+
+/*tabla envios*/
+.inf {
+  display: inline-block;
+  font-size: 3vh;
+  position: absolute;
+  top: 32vh;
+  left: 80vh;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(82, 142, 255);
+  padding: 1.5vh;
+  background-color: rgba(0, 0, 0, 0.685);
+  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+  text-transform: capitalize;
+}
+
+.text {
+  display: inline-block;
+  text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+  font-size: 3vh;
+  position: absolute;
+  left: 80vh;
+  color: white;
+  top: 68vh;
+  text-transform: uppercase;
+  font-family: serif;
+  width: 50%;
+}
+
+.fotenv {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  position: relative;
+  left: 70vh;
+  top: 85vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+}
+.fotenv a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
 }/*# sourceMappingURL=estilo.css.map */

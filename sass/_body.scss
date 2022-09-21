@@ -1,217 +1,16 @@
 .body {
   background-image: url(..//img/ffondo1.jpg);
   width: 100%;
-
-
-.fotind {
-  font-size: 2vh;
-  width: 25%;
-  box-shadow: 10px 10px 101px rgb(7, 155, 253);
-
   position: relative;
-  left: 70vh;
-  top: 20vh;
-  border: 2px solid white;
-  border-radius: 15px;
-  text-align: center;
-  background-color: rgba(0, 119, 255, 0.466);
-  a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-transform: capitalize;
-  }
-}
 
-@media (max-width: 768px) {
   .fotind {
-    position: relative;
-    left: 15vh;
-    width: 20vh;
-  }
-}
-
-
-/*envios*/
-
-
-
-  .mapa1 {
-    border-radius: 20;
-    border-radius: 20px;
-    position: relative;
-    right: 12vh;
-    left: 3vh;
-    top: 15vh;
-    border: 2px white solid;
-    box-shadow: 5px 5px 50px rgb(6, 95, 197);
-  }
-
-
-
-
-@media (max-width:1390px) {
-  .mapa1{
-  left: 10vh;
-  width: 80%;
-  height: 30vh;
-  transition: 1s;
-  }
-  .ht2{
-    top: 10vh;
-    left: 5vh;
-  }
-
-  .text{
-    top: 20vh;
-    left: 25vh;
-    font-size: 3vh;
-    width: 100vh;
-  }
-
-  .inf{
-    top: 90vh;
-    width: 80vh;
-    font-size: 3vh;
-    left: 25vh;
-  }
-
-
-}
-
-@media (max-width:1090px) {
-    .text{
-      left: 15vh;
-    }
-    .inf{
-      left: 15vh;
-      top:85vh ;
-    }
-}
-
-@media (max-width:960px){
-  .text{
-    font-size: 3vh;
-    left: 20vh;
-    width: 70vh;
-  }
-
-  .inf{
-    left: 12vh;
-    top: 90vh;
-
-  }
-  .ht2{
-    top: 7vh;
-  }
-
-}
-
-@media (max-width:788px){
-  .text{
-    left: 5vh;
-    width: 50vh;
-    font-size: 2.5vh;
-  }
-
-.mapa1{
-  left: 5vh;
-}
-
-.inf{
-  left: 1vh;
-  width: 50vh;
-  font-size: 2vh;
-  text-align: center;
-}
-.ht2{
-  left: 3vh;
-  top: 7vh;
-}
-}
-
-
-
-@media (max-width:650px){
-  .mapa1{
-    left: 7vh;
-  }
-}
-
-
-
-.fotenv {
-  font-size: 2vh;
-  width: 25%;
-  box-shadow: 10px 10px 101px rgb(7, 155, 253);
-
-  position: relative;
-  left: 70vh;
-  top: 15vh;
-  border: 2px solid white;
-  border-radius: 15px;
-  text-align: center;
-  background-color: rgba(0, 119, 255, 0.466);
-  a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-transform: capitalize;
-  }
-}
-@media (max-width:1390px){
-  .fotenv{
-    left: 60vh;
-    top: 75vh;
-    transition: 1s;
-  }
-}
-
-@media (max-width:768px){
-  .fotenv{
-    left: 20vh;
-    top: 63vh;
-    transition: 1s;
-    width: 30vh;
-  }
-  .inf{
-    top: 109;
-    left: 5vh;
-  }
-}
-
-@media (max-width:480px){
-  .fotenv{
-    left: 12vh;
-    top: 75vh;
-    transition: 1s;
-    width: 30vh;
-  }
-  .inf{
-    top: 105vh;
-    left: 2vh;
-    width: 40vh;
-    
-  }
-  .text{
-    left: 3vh;
-    width: 35vh;
-  }
-
-  .mapa1{
-    left: 2vh;
-    width: 30vh;
-  }
-}
-
-}
-
-.fotcont{
     font-size: 2vh;
     width: 25%;
     box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  
+
     position: relative;
     left: 70vh;
-    top: 84vh;
+    top: 20vh;
     border: 2px solid white;
     border-radius: 15px;
     text-align: center;
@@ -222,12 +21,28 @@
       text-transform: capitalize;
     }
   }
-@media (max-width:1390px){
-  .fotcont{
-    top: 85vh;
-    left: 90vh;
+
+  @media (max-width: 768px) {
+    .fotind {
+      position: relative;
+      left: 15vh;
+      width: 20vh;
+    }
+  }
+  @media (max-width: 568px) {
+    .h1t {
+      width: 25vh;
+    }
+
+    .row {
+      width: 30vh;
+      left: 1vh;
+    }
+
+    .fotind {
+      left: 10vh;
+      width: 15vh;
+    }
   }
 }
-  
-
-
+  /*envios*/
