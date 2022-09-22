@@ -33,6 +33,11 @@
   .card-text {
     font-size: 1.5vh;
   }
+  .row{
+    position: absolute;
+    top: 25vh;
+    z-index: -1;
+  }
 }
 @media (max-width:500px){
   

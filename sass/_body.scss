@@ -45,17 +45,19 @@
 /*titulos*/
 
 .h1t {
-  position: relative;
+  position: absolute;
   color: rgb(255, 255, 255);
   width: 50%;
 
-  top: 12vh;
+  top: 20vh;
+  z-index: -1;
   left: 8vh;
   font-family: serif;
   font-weight: bold;
   text-transform: capitalize;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
 }
+
 
 .ofrecemos {
   color: white;
@@ -74,9 +76,10 @@
 
 @media (max-width: 900px) {
   .ofrecemos {
-    position: relative;
+    position: absolute;
     left: 5vh;
-    top: 10vh;
+    top: 20vh;
+    z-index: -1;
   }
 }
 @media (max-width: 500px) {
@@ -84,6 +87,9 @@
       position: absolute;
       top: 25vh;
       z-index: -1;
+    }
+    .h1t{
+      top: 25vh;
     }
 }
 
