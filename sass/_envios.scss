@@ -39,6 +39,7 @@
   text-transform: capitalize;
 }
 
+
 .text {
   display: inline-block;
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
@@ -56,9 +57,9 @@
   font-size: 2vh;
   width: 25%;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: relative;
+  position: absolute;
   left: 70vh;
-  top: 85vh;
+  top: 90vh;
   border: 2px solid white;
   border-radius: 15px;
   text-align: center;
@@ -68,4 +69,31 @@
     color: rgb(255, 255, 255);
     text-transform: capitalize;
   }
+}
+
+
+@media (max-width:1390px){
+    .inf{
+        font-size: 2vh;
+        top: 28vh;
+    }
+    .text{
+        font-size: 3vh;
+        width: 55vh;
+    }
+}
+
+@media (max-width:1140px){
+    .mapa1{
+        width: 50vh;
+        height: 50vh;
+    }
+    .inf{
+        left: 65vh;
+        top: 35vh;
+    }
+    .text{
+        left: 65vh;
+        font-size: 2.5vh;
+    }
 }

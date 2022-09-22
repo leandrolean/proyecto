@@ -65,6 +65,12 @@
 .row {
   position: relative;
   top: 13vh;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .row {
+    width: 40vh;
+  }
 }
 .row .card {
   margin: 2vh;
@@ -136,33 +142,6 @@
   font-size: 2vh;
 }
 
-.ht2 {
-  display: inline-block;
-  color: rgb(255, 255, 255);
-  font-size: 5vh;
-  font-family: serif;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  width: 10%;
-  position: absolute;
-  left: 6vh;
-  top: 20vh;
-  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
-}
-
-.text {
-  display: inline-block;
-  text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
-  font-size: 3vh;
-  position: absolute;
-  left: 80vh;
-  color: white;
-  top: 68vh;
-  text-transform: uppercase;
-  font-family: serif;
-  width: 50%;
-}
-
 @media (max-width: 930px) {
   .text {
     left: 10vh;
@@ -202,9 +181,9 @@
   font-size: 2vh;
   width: 25%;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: relative;
+  position: absolute;
   left: 70vh;
-  top: 20vh;
+  top: 90vh;
   border: 2px solid white;
   border-radius: 15px;
   text-align: center;
@@ -215,28 +194,26 @@
   color: rgb(255, 255, 255);
   text-transform: capitalize;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .body .fotind {
-    position: relative;
-    left: 15vh;
-    width: 20vh;
+    top: 150vh;
+    left: 40vh;
   }
 }
-@media (max-width: 568px) {
-  .body .h1t {
-    width: 25vh;
-  }
-  .body .row {
-    width: 30vh;
-    left: 1vh;
-  }
+@media (max-width: 768px) {
   .body .fotind {
-    left: 10vh;
-    width: 15vh;
+    font-size: 1.5vh;
+    top: 260vh;
+    left: 8vh;
+    width: 30vh;
+  }
+}
+@media (max-width: 500px) {
+  .body .fotind {
+    top: 270vh;
   }
 }
 
-/*envios*/
 .laca {
   display: flex;
   justify-content: center;
@@ -686,11 +663,6 @@
     top: 60vh;
   }
 }
-@media (max-width: 1390px) {
-  .text {
-    color: red;
-  }
-}
 .ht2 {
   display: inline-block;
   color: rgb(255, 255, 255);
@@ -748,9 +720,9 @@
   font-size: 2vh;
   width: 25%;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: relative;
+  position: absolute;
   left: 70vh;
-  top: 85vh;
+  top: 90vh;
   border: 2px solid white;
   border-radius: 15px;
   text-align: center;
@@ -760,4 +732,29 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
   text-transform: capitalize;
+}
+
+@media (max-width: 1390px) {
+  .inf {
+    font-size: 2vh;
+    top: 28vh;
+  }
+  .text {
+    font-size: 3vh;
+    width: 55vh;
+  }
+}
+@media (max-width: 1140px) {
+  .mapa1 {
+    width: 50vh;
+    height: 50vh;
+  }
+  .inf {
+    left: 65vh;
+    top: 35vh;
+  }
+  .text {
+    left: 65vh;
+    font-size: 2.5vh;
+  }
 }/*# sourceMappingURL=estilo.css.map */

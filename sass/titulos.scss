@@ -1,0 +1,77 @@
+.h1t {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 50%;
+
+  top: 12vh;
+  left: 8vh;
+  font-family: serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+.ofrecemos {
+  color: white;
+  font-size: 5vh;
+  display: inline-block;
+  position: absolute;
+  top: 19vh;
+  left: 75vh;
+  width: 30%;
+  text-transform: capitalize;
+  font-family: serif;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .ofrecemos {
+    position: relative;
+    left: 5vh;
+    top: 10vh;
+  }
+}
+
+/*pintura*/
+
+.parrafo1 {
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: 20vh;
+  right: 25vh;
+  font-size: 2vh;
+}
+@media (max-width: 930px) {
+  .text {
+    left: 10vh;
+    width: 70%;
+  }
+}
+
+/*laqueado*/
+
+.titlaq {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  font-size: 5vh;
+  left: 55vh;
+  font-family: serif;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+.infolaq {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 75vh;
+  width: 80%;
+  left: 30vh;
+  font-size: 3vh;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}

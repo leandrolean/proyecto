@@ -8,9 +8,9 @@
     width: 25%;
     box-shadow: 10px 10px 101px rgb(7, 155, 253);
 
-    position: relative;
+    position: absolute;
     left: 70vh;
-    top: 20vh;
+    top: 90vh;
     border: 2px solid white;
     border-radius: 15px;
     text-align: center;
@@ -21,28 +21,23 @@
       text-transform: capitalize;
     }
   }
-
-  @media (max-width: 768px) {
-    .fotind {
-      position: relative;
-      left: 15vh;
-      width: 20vh;
+  @media (max-width:1200px){
+    .fotind{
+      top: 150vh;
+      left: 40vh;
     }
   }
-  @media (max-width: 568px) {
-    .h1t {
-      width: 25vh;
-    }
-
-    .row {
+  @media (max-width:768px){
+    .fotind{
+      font-size: 1.5vh;
+      top: 260vh;
+      left: 8vh;
       width: 30vh;
-      left: 1vh;
     }
-
-    .fotind {
-      left: 10vh;
-      width: 15vh;
-    }
+  }
+@media (max-width:500px){
+  .fotind{
+    top: 270vh;
   }
 }
-  /*envios*/
+}
