@@ -209,8 +209,30 @@
     width: 70%;
   }
 }
+/*envios*/
+.ht2 {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 5vh;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  width: 10%;
+  position: absolute;
+  left: 6vh;
+  top: 20vh;
+  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
+}
+
+.linkpint {
+  text-decoration: none;
+  color: white;
+}
+
+/*laqueado*/
 /*laqueado*/
 .titlaq {
+  z-index: -1;
   display: inline-block;
   color: white;
   position: absolute;
@@ -233,163 +255,113 @@
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
 }
 
-/*envios*/
-.ht2 {
-  display: inline-block;
-  color: rgb(255, 255, 255);
-  font-size: 5vh;
-  font-family: serif;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  width: 10%;
-  position: absolute;
-  left: 6vh;
-  top: 20vh;
-  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
-}
-
-.laca {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 20vh;
-}
-.laca .img-fluid {
-  border: 2px solid rgb(45, 143, 255);
-  display: inline-block;
-  width: 30vh;
-  height: 30vh;
-  top: 25vh;
+.img-thumbnail {
+  z-index: -1;
+  width: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
-  align-items: center;
-  margin: 5vh;
-  border-radius: 3vh;
-}
-.laca .img-fluid:hover {
-  bottom: 2vh;
-  box-shadow: 10px 10px 101px rgb(48, 165, 255);
-  border: 4px solid rgb(255, 255, 255);
-  transition: 0.2s;
-  width: 32vh;
-  height: 32vh;
-}
-
-/*laqueado*/
-.linkpint {
-  text-decoration: none;
-  color: white;
+  height: 45vh;
+  top: 28vh;
+  position: absolute;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  left: 50vh;
 }
 
 .volver {
-  display: inline-block;
+  color: white;
   position: absolute;
-  top: 90vh;
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 1vh;
-  left: 10vh;
   font-size: 3vh;
   text-decoration: none;
-  color: white;
-  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
-  box-shadow: 5px 5px 50px rgba(98, 171, 255, 0.774);
+  top: 90vh;
+  left: 10vh;
+  border: 2px solid;
+  padding: 1vh;
+  border-radius: 20px;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  background-color: rgba(0, 0, 0, 0.623);
 }
 
 @media (max-width: 1390px) {
-  .laca {
-    flex-direction: column;
-    left: 20vh;
-    width: 50vh;
-  }
-  .laca .img-fluid {
-    width: 25vh;
-    height: 25vh;
-    transition: 1s;
-  }
   .infolaq {
-    width: 50%;
-    font-size: 5vh;
-    left: 60vh;
-    top: 40vh;
-    transition: 1s;
-  }
-  .volver {
-    top: 130vh;
-    left: 90vh;
-    color: white;
+    width: 100vh;
+    left: 40vh;
   }
 }
-.titlaq {
-  left: 52vh;
-}
-
-@media (max-width: 1190px) {
-  .laca {
-    left: 8vh;
-  }
+@media (max-width: 1180px) {
   .titlaq {
+    left: 30vh;
+  }
+  .img-thumbnail {
+    left: 30vh;
+  }
+  .infolaq {
+    left: 25vh;
+  }
+}
+@media (max-width: 1066px) {
+  .titlaq {
+    left: 20vh;
     font-size: 4vh;
-    left: 10vh;
   }
-  .volver {
-    top: 145vh;
-    left: 10vh;
-  }
-  .infolaq {
-    font-size: 4.5vh;
-    left: 45vh;
-  }
-}
-@media (max-width: 740px) {
-  .volver {
-    top: 130vh;
-    left: 60vh;
-  }
-  .laca {
-    left: 2vh;
+  .img-thumbnail {
+    width: 60vh;
+    height: 35vh;
   }
   .infolaq {
-    left: 35vh;
-    font-size: 3.5vh;
-    top: 45vh;
+    left: 20vh;
+    top: 65vh;
+    font-size: 2.5vh;
+    width: 80vh;
   }
 }
-@media (max-width: 680px) {
-  .volver {
-    top: 140vh;
+@media (max-width: 850px) {
+  .titlaq {
     left: 5vh;
   }
-}
-@media (max-width: 600px) {
-  .laca {
-    left: 20vh;
-    width: 35vh;
+  .img-thumbnail {
+    left: 10vh;
   }
   .infolaq {
-    top: 145vh;
-    left: 10vh;
+    left: 7vh;
+    width: 70vh;
+  }
+}
+@media (max-width: 665px) {
+  .titlaq {
+    font-size: 3vh;
+    width: 30vh;
+  }
+  .img-thumbnail {
     width: 50vh;
+    height: 30vh;
+    left: 5vh;
+    top: 30vh;
+  }
+  .infolaq {
+    font-size: 2vh;
+    width: 45vh;
   }
   .volver {
-    top: 218vh;
+    top: 95vh;
   }
 }
 @media (max-width: 500px) {
-  .infolaq {
-    font-size: 2.5vh;
-    width: 30vh;
-    left: 10vh;
-    top: 145vh;
-  }
-  .laca {
-    width: 30vh;
-    left: 7vh;
-  }
   .titlaq {
-    font-size: 3vh;
     top: 25vh;
-    left: 7vh;
+  }
+  .img-thumbnail {
+    top: 35vh;
+    left: 3vh;
+    width: 35vh;
+    height: 20vh;
+  }
+  .infolaq {
+    top: 60vh;
+    width: 37vh;
+    left: 2vh;
+  }
+  .volver {
+    top: 90vh;
   }
 }
 .registrate {

@@ -1,171 +1,147 @@
-.laca {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 20vh;
-
-  .img-fluid {
-    border: 2px solid rgb(45, 143, 255);
-    display: inline-block;
-    width: 30vh;
-    height: 30vh;
-    top: 25vh;
-    object-fit: cover;
-    align-items: center;
-    margin: 5vh;
-    border-radius: 3vh;
-
-    &:hover {
-      bottom: 2vh;
-      box-shadow: 10px 10px 101px rgb(48, 165, 255);
-      border: 4px solid rgb(255, 255, 255);
-      transition: 0.2s;
-      width: 32vh;
-      height: 32vh;
-    }
-  }
+.linkpint{
+  text-decoration: none;
+  color: white;
 }
 
 /*laqueado*/
-.linkpint{
-    text-decoration: none;
-    color: white;
+
+/*laqueado*/
+
+.titlaq {
+  z-index: -1;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  font-size: 5vh;
+  left: 55vh;
+  font-family: serif;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+.infolaq {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 75vh;
+  width: 80%;
+  left: 30vh;
+  font-size: 3vh;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+
+
+
+.img-thumbnail{
+  z-index: -1;
+  width: 80vh;
+  object-fit: cover;
+  height: 45vh;
+  top: 28vh;
+  position: absolute;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  left: 50vh;
 }
 
 .volver{
-  display: inline-block;
+  color: white;
   position: absolute;
-  top: 90vh;
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 1vh;
-  left: 10vh;
   font-size: 3vh;
   text-decoration: none;
-  color: white;
-  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
-  box-shadow: 5px 5px 50px rgba(98, 171, 255, 0.774);
+  top: 90vh;
+  left: 10vh;
+  border: 2px solid;
+  padding: 1vh;
+  border-radius: 20px;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
 
+  background-color: rgba(0, 0, 0, 0.623);
 }
-
 @media (max-width:1390px){
-  .laca{
-    flex-direction: column;
-    left: 20vh;
-    width: 50vh;
-    .img-fluid{
-      width: 25vh;
-      height: 25vh;
-      transition: 1s;
-    }
-  }
-
-
   .infolaq{
-    width: 50%;
-    font-size: 5vh;
-    left: 60vh;
-    top: 40vh;
-    transition: 1s;
-  }
-
-
-
-
-  .volver{
-    top: 130vh;
-    left: 90vh;
-    color: white;
+    width: 100vh;
+    left: 40vh;
   }
 }
 
-
-
-
-
+@media (max-width:1180px){
   .titlaq{
-    left: 52vh;
-
+    left: 30vh;
   }
-  @media (max-width:1190px){
-    
-    .laca{
-      left:8vh;
-    }
-
+  .img-thumbnail{
+    left: 30vh;
+  }
+  .infolaq{
+    left:25vh;
+  }
+}
+@media (max-width:1066px){
     .titlaq{
-      font-size: 4vh;
-      left: 10vh;
-    }
-
-    .volver{
-      top: 145vh;
-      left: 10vh;
-    }
-    .infolaq{
-      font-size: 4.5vh;
-      left: 45vh;
-    }
-  }
-
-
-  @media (max-width:740px){
-    .volver{
-      top: 130vh;
-      left: 60vh;
-    }
-
-    .laca{
-      left: 2vh;
-
-    }
-    .infolaq{
-      left: 35vh;
-      font-size: 3.5vh;
-      top: 45vh;
-    }
-  }
-  @media (max-width:680px){
-    .volver{
-      top: 140vh;
-      left: 5vh;
-    }
-  }
-  @media (max-width:600px){
-    .laca{
       left: 20vh;
-      width: 35vh;
-
+      font-size: 4vh;
     }
-
-
+    .img-thumbnail{
+      width: 60vh;
+      height: 35vh;
+    }
     .infolaq{
-      top: 145vh;
-      left: 10vh;
-      width: 50vh;
+      left: 20vh;
+      top: 65vh;
+      font-size: 2.5vh;
+      width: 80vh;
     }
 
-    .volver{
-      top: 218vh;
-    }
-    }
-    @media (max-width:500px){
-      .infolaq{
-        font-size: 2.5vh;
-        width: 30vh;
-        left: 10vh;
-        top: 145vh;
-      }
+}
+@media (max-width:850px){
+  .titlaq{
+    left: 5vh;
+  }
+  .img-thumbnail{
+    left: 10vh;
+  }
+  .infolaq{
+    left: 7vh;
+    width: 70vh;
+  }
+}
+@media (max-width:665px){
+  .titlaq{
+    font-size: 3vh;
+    width: 30vh;
+  }
+  .img-thumbnail{
+    width: 50vh;
+    height: 30vh;
+    left: 5vh;
+    top: 30vh;
+  }
+  .infolaq{
+    font-size: 2vh;
+    width: 45vh;
+  }
+  .volver{
+    top: 95vh;
+  }
+}
 
-      .laca{
-        width: 30vh;
-        left: 7vh;
-      }
+@media (max-width:500px){
+  .titlaq{
+    top: 25vh;
+  }
+  .img-thumbnail{
+    top: 35vh;
+    left:3vh;
+    width: 35vh;
+    height: 20vh;
+  }
+  .infolaq{
+    top: 60vh;
+    width: 37vh;
+    left: 2vh;
+  }
+  .volver{
+    top: 90vh;
+  }
+}
 
-      .titlaq{
-        font-size: 3vh;
-        top: 25vh;
-        left: 7vh;
-      }
-    }
-  
