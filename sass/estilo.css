@@ -99,6 +99,49 @@
     font-size: 1.5vh;
   }
 }
+.body {
+  background-image: url(..//img/ffondo1.jpg);
+  width: 100%;
+  position: relative;
+}
+.body .fotind {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  position: absolute;
+  left: 70vh;
+  top: 90vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+}
+.body .fotind a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+@media (max-width: 1200px) {
+  .body .fotind {
+    top: 150vh;
+    left: 40vh;
+  }
+}
+@media (max-width: 768px) {
+  .body .fotind {
+    font-size: 1.5vh;
+    top: 260vh;
+    left: 8vh;
+    width: 30vh;
+  }
+}
+@media (max-width: 500px) {
+  .body .fotind {
+    top: 270vh;
+  }
+}
+
+/*titulos*/
 .h1t {
   position: relative;
   color: rgb(255, 255, 255);
@@ -172,46 +215,19 @@
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
 }
 
-.body {
-  background-image: url(..//img/ffondo1.jpg);
-  width: 100%;
-  position: relative;
-}
-.body .fotind {
-  font-size: 2vh;
-  width: 25%;
-  box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: absolute;
-  left: 70vh;
-  top: 90vh;
-  border: 2px solid white;
-  border-radius: 15px;
-  text-align: center;
-  background-color: rgba(0, 119, 255, 0.466);
-}
-.body .fotind a {
-  text-decoration: none;
+/*envios*/
+.ht2 {
+  display: inline-block;
   color: rgb(255, 255, 255);
-  text-transform: capitalize;
-}
-@media (max-width: 1200px) {
-  .body .fotind {
-    top: 150vh;
-    left: 40vh;
-  }
-}
-@media (max-width: 768px) {
-  .body .fotind {
-    font-size: 1.5vh;
-    top: 260vh;
-    left: 8vh;
-    width: 30vh;
-  }
-}
-@media (max-width: 500px) {
-  .body .fotind {
-    top: 270vh;
-  }
+  font-size: 5vh;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  width: 10%;
+  position: absolute;
+  left: 6vh;
+  top: 20vh;
+  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
 
 .laca {
@@ -663,38 +679,19 @@
     top: 60vh;
   }
 }
-.ht2 {
-  display: inline-block;
-  color: rgb(255, 255, 255);
-  font-size: 5vh;
-  font-family: serif;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  width: 10%;
-  position: absolute;
-  left: 6vh;
-  top: 20vh;
-  text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
-}
-
 .mapa1 {
-  border-radius: 20;
-  border-radius: 20px;
   position: absolute;
-  right: 12vh;
-  left: 3vh;
-  top: 35vh;
-  border: 2px white solid;
-  box-shadow: 5px 5px 50px rgb(6, 95, 197);
+  left: 8vh;
+  top: 30vh;
+  border-radius: 20px;
 }
 
-/*tabla envios*/
 .inf {
   display: inline-block;
-  font-size: 3vh;
+  font-size: 2.5vh;
   position: absolute;
   top: 32vh;
-  left: 80vh;
+  left: 90vh;
   color: rgb(255, 255, 255);
   border: 2px solid rgb(82, 142, 255);
   padding: 1.5vh;
@@ -735,26 +732,107 @@
 }
 
 @media (max-width: 1390px) {
-  .inf {
-    font-size: 2vh;
-    top: 28vh;
-  }
-  .text {
-    font-size: 3vh;
-    width: 55vh;
-  }
-}
-@media (max-width: 1140px) {
   .mapa1 {
     width: 50vh;
     height: 50vh;
   }
   .inf {
     left: 65vh;
-    top: 35vh;
+    font-size: 2.5vh;
   }
   .text {
-    left: 65vh;
     font-size: 2.5vh;
+    left: 65vh;
+  }
+  .fotenv {
+    font-size: 1.5vh;
+  }
+}
+@media (max-width: 1090px) {
+  .mapa1 {
+    width: 40vh;
+    height: 40vh;
+  }
+  .inf {
+    left: 55vh;
+    top: 30vh;
+    font-size: 2vh;
+  }
+  .text {
+    font-size: 2vh;
+    top: 60vh;
+    left: 55vh;
+  }
+  .fotenv {
+    font-size: 1.5vh;
+    left: 50vh;
+    top: 80vh;
+  }
+}
+@media (min-width: 684px) and (max-width: 925px) {
+  .mapa1 {
+    width: 70vh;
+    left: 10vh;
+  }
+  .inf {
+    top: 75vh;
+    left: 25vh;
+  }
+  .text {
+    top: 105vh;
+    left: 28vh;
+  }
+  .fotenv {
+    top: 120vh;
+    left: 40vh;
+  }
+}
+@media (max-width: 683px) {
+  .inf {
+    top: 75vh;
+    left: 5vh;
+    font-size: 1.8vh;
+  }
+  .text {
+    top: 105vh;
+    left: 8vh;
+  }
+  .fotenv {
+    top: 123vh;
+    left: 16vh;
+  }
+}
+@media (max-width: 572px) {
+  .text {
+    font-size: 1.5vh;
+  }
+  .inf {
+    font-size: 1.5vh;
+  }
+  .mapa1 {
+    left: 3vh;
+  }
+}
+@media (max-width: 500px) {
+  .ht2 {
+    font-size: 4vh;
+    top: 23vh;
+  }
+  .inf {
+    width: 35vh;
+    top: 65vh;
+  }
+  .text {
+    top: 102vh;
+    left: 8vh;
+    width: 30vh;
+  }
+  .fotenv {
+    top: 118vh;
+  }
+  .mapa1 {
+    width: 30vh;
+    height: 30vh;
+    left: 7vh;
   }
 }/*# sourceMappingURL=estilo.css.map */
