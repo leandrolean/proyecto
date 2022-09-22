@@ -835,4 +835,9 @@
     height: 30vh;
     left: 7vh;
   }
+  #navbarNavDropdown {
+    z-index: 1;
+    padding: 1vh;
+    background: linear-gradient(to right, #021b79, #0575e6);
+  }
 }/*# sourceMappingURL=estilo.css.map */
