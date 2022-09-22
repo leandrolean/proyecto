@@ -3,9 +3,7 @@
   top: 13vh;
   width:100%;
 
-  @media (max-width:768px){
-    width: 40vh;
-  }
+  
 
   .card {
     margin: 2vh;
@@ -36,3 +34,11 @@
     font-size: 1.5vh;
   }
 }
+@media (max-width:500px){
+  
+    .row{
+        position: absolute;
+        top: 30vh;
+    }
+}
+

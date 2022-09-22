@@ -79,6 +79,13 @@
     top: 10vh;
   }
 }
+@media (max-width: 500px) {
+    .ofrecemos{
+      position: absolute;
+      top: 25vh;
+      z-index: -1;
+    }
+}
 
 /*pintura*/
 
