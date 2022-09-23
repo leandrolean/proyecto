@@ -162,7 +162,7 @@
 }
 
 .ofrecemos {
-  color: white;
+  color: rgb(140, 180, 240);
   font-size: 5vh;
   display: inline-block;
   position: absolute;
@@ -173,6 +173,15 @@
   font-family: serif;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
   z-index: 1;
+}
+
+.h1tyb {
+  position: absolute;
+  color: white;
+  left: 75vh;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+  top: 18vh;
 }
 
 @media (max-width: 900px) {
@@ -1051,7 +1060,9 @@
     width: 30vh;
   }
   .fotenv {
+    width: 20vh;
     top: 118vh;
+    left: 10vh;
   }
   .mapa1 {
     width: 30vh;

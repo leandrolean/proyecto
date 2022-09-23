@@ -1,3 +1,5 @@
+$color-pricipal: rgb(140, 180, 240);
+
 .body {
   background-image: url(..//img/ffondo1.jpg);
   width: 100%;
@@ -60,7 +62,7 @@
 
 
 .ofrecemos {
-  color: white;
+  color: $color-pricipal;
   font-size: 5vh;
   display: inline-block;
   position: absolute;
@@ -70,8 +72,16 @@
   text-transform: capitalize;
   font-family: serif;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
-
   z-index: 1;
+}
+
+.h1tyb{
+  position: absolute;
+  color: white;
+  left: 75vh;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+  top: 18vh;
 }
 
 @media (max-width: 900px) {
