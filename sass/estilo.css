@@ -876,10 +876,10 @@
   .titcontacto {
     width: 36vh;
     left: 2vh;
-    top: 70vh;
+    top: 73vh;
   }
   .img-fluid {
-    top: 92vh;
+    top: 95vh;
     width: 37vh;
     left: 2vh;
     height: 25vh;
@@ -890,12 +890,16 @@
   }
   .insta {
     left: 10vh;
-    top: 95vh;
+    top: 97vh;
     font-size: 1.8vh;
   }
   .facebook {
     left: 10vh;
     font-size: 1.9vh;
+    top: 103vh;
+  }
+  .fotcont {
+    top: 125vh;
   }
 }
 .mapa1 {
