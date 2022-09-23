@@ -70,9 +70,43 @@
   top: 35vh;
   width: 65vh;
   height: 50vh;
-  border: 2px solid white;
+  border: 2px solid rgb(52, 147, 224);
   border-radius: 20px;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
+}
+
+.insta{
+	color: white;
+	position: absolute;
+	left: 120vh;
+	top: 50vh;
+	background-color: rgba(101, 33, 209, 0.815);
+	padding: 2vh;
+	font-size: 2.5vh;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+	border-radius: 20px;
+		&:hover{
+		color: black;
+	}
+}
+
+.facebook{
+	color: white;
+	position: absolute;
+	left: 120vh;
+	top: 60vh;
+	background-color: rgba(2, 53, 131, 0.815);
+	padding: 2vh;
+	font-size: 2.5vh;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+	border-radius: 20px;
+		&:hover{
+		color: black;
+}
 }
 
 @media (max-width: 1390px) {
@@ -98,6 +132,12 @@
     height: 50vh;
     z-index: -1;
   }
+  .insta{
+	left: 100vh;
+  }
+  .facebook{	
+		left: 100vh;
+  }
 }
 
 @media (max-width: 1240px) {
@@ -121,6 +161,12 @@
     top: 90vh;
     font-size: 1.7vh;
   }
+  .insta{
+	left: 85vh;
+  }
+  .facebook{
+	left: 85vh;
+  }
 }
 @media (max-width: 1020px) {
   .img-fluid {
@@ -132,6 +178,17 @@
   .titcontacto {
     width: 90vh;
     height: 10vh;
+  }
+  .insta{
+	left: 65vh;
+	top:35vh;
+	padding: 1vh;
+  }
+  .facebook{
+	left: 65vh;
+	top:45vh;
+	padding: 1vh;
+
   }
 }
 @media (max-width: 830px) {
@@ -150,12 +207,20 @@
   }
   .titcontacto {
     width: 50vh;
-    top: 70vh;
+    top: 67vh;
     left: 25vh;
   }
   .fotcont {
     left: 40vh;
     top: 120vh;
+  }
+  .insta{
+	top: 90vh;
+	left: 40vh;
+  }
+  .facebook{
+	top: 100vh;
+	left: 40vh;
   }
 }
 
@@ -177,6 +242,12 @@
   }
   .registrate {
     font-size: 1.8vh;
+  }
+  .insta{
+	left: 20vh;
+  }
+  .facebook{
+	left: 20vh;
   }
 }
 @media (max-width: 501px) {
@@ -202,5 +273,14 @@
   .fotcont {
     left: 5vh;
     width: 30vh;
+  }
+  .insta{
+	left: 10vh;
+	top: 95vh;
+	font-size: 1.8vh;
+  }
+  .facebook{
+	left: 10vh;
+	font-size: 1.9vh;
   }
 }
