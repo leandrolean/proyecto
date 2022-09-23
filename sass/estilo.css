@@ -224,6 +224,260 @@
   text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
 
+.comienzo {
+  z-index: -1;
+  position: absolute;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgb(7, 155, 253);
+  top: 18vh;
+  left: 20vh;
+}
+
+.hoy {
+  z-index: -1;
+  position: absolute;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px rgb(7, 155, 253);
+  top: 18vh;
+  left: 110vh;
+  font-size: 4vh;
+}
+
+.img-fluid3 {
+  z-index: -1;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 25vh;
+  left: 10vh;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 70vh;
+  height: 40vh;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+}
+
+.img-fluid4 {
+  z-index: -1;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 20px;
+  top: 25vh;
+  left: 95vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 70vh;
+  height: 40vh;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+}
+
+.pcomienzo {
+  color: white;
+  position: absolute;
+  width: 60vh;
+  left: 15vh;
+  top: 70vh;
+  font-size: 2vh;
+  text-shadow: 5px 5px 5px rgb(7, 155, 253);
+}
+
+.phoy {
+  color: white;
+  position: absolute;
+  width: 60vh;
+  left: 100vh;
+  top: 70vh;
+  font-size: 2vh;
+  text-shadow: 5px 5px 5px rgb(7, 155, 253);
+}
+
+.fotnos {
+  font-size: 2vh;
+  width: 25%;
+  box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  position: absolute;
+  left: 65vh;
+  top: 93vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 119, 255, 0.466);
+}
+.fotnos a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+@media (max-width: 1390px) {
+  .img-fluid3 {
+    width: 60vh;
+    height: 30vh;
+  }
+  .img-fluid4 {
+    width: 60vh;
+    height: 30vh;
+  }
+  .pcomienzo {
+    top: 60vh;
+    left: 10vh;
+  }
+  .phoy {
+    top: 60vh;
+    left: 95vh;
+  }
+  .fotnos {
+    font-size: 1.8vh;
+  }
+}
+@media (max-width: 1300px) {
+  .img-fluid3 {
+    width: 50vh;
+    height: 20vh;
+  }
+  .img-fluid4 {
+    left: 80vh;
+    width: 50vh;
+    height: 20vh;
+  }
+  .pcomienzo {
+    top: 50vh;
+    left: 10vh;
+    width: 50vh;
+  }
+  .phoy {
+    top: 50vh;
+    left: 80vh;
+    width: 50vh;
+  }
+  .comienzo {
+    left: 10vh;
+  }
+  .hoy {
+    left: 85vh;
+  }
+  .fotnos {
+    left: 55vh;
+    font-size: 1.5vh;
+    top: 90vh;
+  }
+}
+@media (max-width: 1100px) {
+  .comienzo {
+    left: 5vh;
+  }
+  .hoy {
+    left: 65vh;
+  }
+  .img-fluid3 {
+    left: 5vh;
+    width: 40vh;
+  }
+  .img-fluid4 {
+    left: 65vh;
+    width: 40vh;
+  }
+  .pcomienzo {
+    left: 5vh;
+    width: 40vh;
+  }
+  .phoy {
+    left: 65vh;
+    width: 40vh;
+  }
+  .fotnos {
+    left: 40vh;
+  }
+}
+@media (max-width: 900px) {
+  .hoy {
+    left: 50vh;
+  }
+  .img-fluid4 {
+    left: 50vh;
+  }
+  .phoy {
+    left: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .comienzo {
+    left: 30vh;
+  }
+  .img-fluid3 {
+    left: 30vh;
+  }
+  .pcomienzo {
+    left: 30vh;
+  }
+  .hoy {
+    top: 80vh;
+    left: 30vh;
+  }
+  .img-fluid4 {
+    top: 90vh;
+    left: 30vh;
+  }
+  .phoy {
+    top: 115vh;
+    left: 30vh;
+  }
+  .fotnos {
+    top: 140vh;
+    left: 35vh;
+  }
+}
+@media (max-width: 600px) {
+  .comienzo {
+    left: 2vh;
+    top: 23vh;
+  }
+  .img-fluid3 {
+    top: 30vh;
+    left: 3vh;
+  }
+  .pcomienzo {
+    left: 3vh;
+    top: 52vh;
+  }
+  .hoy {
+    left: 2vh;
+    top: 78vh;
+  }
+  .img-fluid4 {
+    left: 3vh;
+    top: 85vh;
+  }
+  .phoy {
+    left: 3vh;
+    top: 108vh;
+  }
+  .fotnos {
+    top: 135vh;
+    left: 20vh;
+  }
+}
+@media (max-width: 380px) {
+  .img-fluid3 {
+    width: 35vh;
+  }
+  .pcomienzo {
+    width: 35vh;
+    font-size: 1.8vh;
+  }
+  .img-fluid4 {
+    width: 35vh;
+  }
+  .phoy {
+    width: 35vh;
+  }
+  .fotnos {
+    left: 10vh;
+    width: 20vh;
+  }
+}
 .linkpint {
   text-decoration: none;
   color: white;
