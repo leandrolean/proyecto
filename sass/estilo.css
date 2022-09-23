@@ -876,9 +876,10 @@
   .titcontacto {
     width: 36vh;
     left: 2vh;
+    top: 70vh;
   }
   .img-fluid {
-    top: 90vh;
+    top: 92vh;
     width: 37vh;
     left: 2vh;
     height: 25vh;
