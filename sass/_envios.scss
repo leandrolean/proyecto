@@ -1,6 +1,7 @@
 .mapa1 {
   position: absolute;
-  left: 8vh;
+  left: 10vh;
+  height: 60vh;
   top: 30vh;
   border-radius: 20px;
 }
@@ -10,8 +11,8 @@
   display: inline-block;
   font-size: 2.5vh;
   position: absolute;
-  top: 32vh;
-  left: 90vh;
+  top: 30vh;
+  left: 115vh;
   color: rgb(255, 255, 255);
   border: 2px solid rgb(82, 142, 255);
   padding: 1.5vh;
@@ -25,21 +26,21 @@
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
   font-size: 3vh;
   position: absolute;
-  left: 80vh;
+  left: 115vh;
   color: white;
   top: 68vh;
   text-transform: uppercase;
   font-family: serif;
-  width: 50%;
+  width: 70vh;
 }
 
 .fotenv {
   font-size: 2vh;
   width: 25%;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position: absolute;
-  left: 70vh;
-  top: 90vh;
+  position:absolute;
+  left: 90vh;
+  top: 92vh;
   border: 2px solid white;
   border-radius: 15px;
   text-align: center;
@@ -50,14 +51,14 @@
     text-transform: capitalize;
   }
 }
-
-@media (max-width:1390px){
+/*aca me di cuenta que al cambiar el monitor puede cambiar la resolucion y lo que en mi anterior monitor se veia perfecto aca se rompe*/
+/*@media (max-width:1200px){
   .mapa1{
-    width: 50vh;
-    height: 50vh;
+    width: 70vh;
+    height: 70vh;
   }
   .inf{
-    left: 65vh;
+    left: 95vh;
     font-size: 2.5vh;
   }
   .text{
@@ -67,93 +68,95 @@
   .fotenv{
     font-size: 1.5vh;
   }
-}
+}*/
 
 @media (max-width:1090px){
   .mapa1{
-    width: 40vh;
-    height: 40vh;
+    width: 70vh;
+    height: 50vh;
   }
   .inf{
-    left: 55vh;
+    left: 95vh;
     top: 30vh;
     font-size: 2vh;
   }
   .text{
     font-size: 2vh;
-    top: 60vh;
-    left: 55vh;
+    top: 70vh;
+    left: 95vh;
   }
   .fotenv{
     font-size: 1.5vh;
-    left: 50vh;
-    top: 80vh;
+    left: 70vh;
+    top: 90vh;
   }
 }
 
 @media (min-width:684px) and (max-width:925px){
     .mapa1{
-      width: 70vh;
-      left: 10vh;
+      width: 90vh;
+      left: 40vh;
     }
     .inf{
-      top: 75vh;
-      left: 25vh;
+      top: 85vh;
+      left: 40vh;
     }
     .text{
-      top: 105vh;
-      left: 28vh;
+      top: 85vh;
+      width: 30vh;
+      font-size: 2.5vh;
+      left: 100vh;
     }
     .fotenv{
-      top: 120vh;
-      left: 40vh;
+      top: 125vh;
+      left: 70vh;
     }
 }
 @media (max-width:683px){
   .inf{
-    top: 75vh;
-    left: 5vh;
-    font-size: 1.8vh;
+    top: 85vh;
+    left: 10vh;
+    width: 50vh;
+    font-size: 2.5vh;
   }
   .text{
-    top: 105vh;
-    left: 8vh;
+    top: 120vh;
+    width: 50vh;
+    left: 10vh;
   }
   .fotenv{
     top: 123vh;
-    left: 16vh;
+    left: 60vh;
+  }
+  .fotenv{
+    top: 130vh;
+    left: 30vh;
   }
 }
-@media (max-width:572px){
-  .text{
-    font-size: 1.5vh;
-  }
-  .inf{
-    font-size: 1.5vh;
-  }
-  .mapa1{
-    left: 3vh;
-  }
-}
+
 @media (max-width:500px){
   .ht2{
     font-size: 4vh;
-    top: 23vh;
+    top: 28vh;
+  }
+  .mapa1{
+    top: 38vh;
   }
 
   .inf{
     width: 35vh;
-    top: 65vh;
+    top: 75vh;
+    left: 7vh;
   }
 
   .text{
-    top: 102vh;
+    top: 135vh;
     left: 8vh;
     width: 30vh;
   }
   .fotenv{
     width: 20vh;
-    top: 118vh;
+    top: 158vh;
     left: 10vh;
   }
 

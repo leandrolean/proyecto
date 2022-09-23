@@ -1,0 +1,49 @@
+
+/*nuestra sucursal*/
+
+.cards1{
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3vh;
+    gap: 4vh;
+    position: absolute;
+    top: 30vh;
+    .card{
+        background-color: rgba(0, 0, 0, 0.527);
+        color: white;
+        box-shadow: 5px 5px 30px rgb(7, 155, 253);
+        border: 2px solid rgb(161, 194, 255);
+
+    }
+   
+}
+.fotns{
+    font-size: 2vh;
+    width: 25%;
+    box-shadow: 10px 10px 101px rgb(7, 155, 253);
+  
+    position: absolute;
+    left: 70vh;
+    top: 125vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 119, 255, 0.466);
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      text-transform: capitalize;
+    }
+}
+.titns{
+    z-index: -1;
+    color: white;
+    position: absolute;
+    top: 20vh;
+    text-transform: capitalize;
+    left: 75vh;
+    text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+
+}
