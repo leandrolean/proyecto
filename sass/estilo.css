@@ -908,6 +908,7 @@
   }
 }
 .mapa1 {
+  display: flex;
   position: absolute;
   left: 10vh;
   height: 60vh;
@@ -1098,12 +1099,12 @@
 }
 
 .fotns {
+  top: 200vh;
   font-size: 2vh;
   width: 25%;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
   position: absolute;
-  left: 70vh;
-  top: 125vh;
+  left: 80vh;
   border: 2px solid white;
   border-radius: 15px;
   text-align: center;
@@ -1123,4 +1124,32 @@
   text-transform: capitalize;
   left: 75vh;
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
+}
+
+@media (max-width: 630px) {
+  .cards1 {
+    top: 45vh;
+  }
+  .titns {
+    left: 8vh;
+    top: 235vh;
+  }
+  .fotns {
+    left: 12vh;
+    top: 695vh;
+    width: 35vh;
+    padding: 0.5vh;
+  }
+}
+@media (min-width: 631px) and (max-width: 768px) {
+  .fotns {
+    top: 370vh;
+    left: 50vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 941px) {
+  .fotns {
+    top: 370vh;
+    left: 60vh;
+  }
 }/*# sourceMappingURL=estilo.css.map */
