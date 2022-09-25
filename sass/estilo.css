@@ -97,9 +97,6 @@
     top: 35vh;
     z-index: -1;
   }
-  .fotind {
-    top: 110vh;
-  }
 }
 .body {
   background-image: url(..//img/ffondo1.jpg);
@@ -139,7 +136,7 @@
 }
 @media (max-width: 500px) {
   .body .fotind {
-    top: 308vh;
+    top: 250vh;
   }
 }
 
