@@ -25,21 +25,21 @@ $color-pricipal: rgb(140, 180, 240);
   }
   @media (max-width:1200px){
     .fotind{
-      top: 150vh;
-      left: 40vh;
+      top: 170vh;
+      left: 55vh;
     }
   }
   @media (max-width:768px){
     .fotind{
       font-size: 1.5vh;
-      top: 260vh;
-      left: 8vh;
+      top: 300vh;
+      left: 16vh;
       width: 30vh;
     }
   }
 @media (max-width:500px){
   .fotind{
-    top: 270vh;
+    top: 308vh;
   }
 }
 }
@@ -99,7 +99,8 @@ $color-pricipal: rgb(140, 180, 240);
       z-index: -1;
     }
     .h1t{
-      top: 25vh;
+      top: 28vh;
+      font-size: 4vh;
     }
 }
 
