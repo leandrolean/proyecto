@@ -97,11 +97,8 @@
     top: 35vh;
     z-index: -1;
   }
-}
-@media (max-width: 500px) {
-  .row {
-    position: absolute;
-    top: 45vh;
+  .fotind {
+    top: 150vh;
   }
 }
 .body {
