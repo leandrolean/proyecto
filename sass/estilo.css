@@ -997,7 +997,7 @@
     top: 90vh;
   }
 }
-@media (min-width: 684px) and (max-width: 925px) {
+@media (min-width: 767px) and (max-width: 925px) {
   .mapa1 {
     width: 90vh;
     left: 40vh;
@@ -1017,9 +1017,10 @@
     left: 70vh;
   }
 }
-@media (max-width: 683px) {
+@media (max-width: 766px) {
   .mapa1 {
     width: 50vh;
+    z-index: -1;
   }
   .inf {
     top: 85vh;
@@ -1033,16 +1034,16 @@
     left: 10vh;
   }
   .fotenv {
-    top: 123vh;
-    left: 60vh;
-  }
-  .fotenv {
     top: 160vh;
     left: 23vh;
+  }
+  .ht2 {
+    z-index: -1;
   }
 }
 @media (max-width: 500px) {
   .ht2 {
+    z-index: -1;
     font-size: 4vh;
     top: 28vh;
   }
