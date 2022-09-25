@@ -1126,6 +1126,14 @@
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
 }
 
+@media (max-width: 630px) and (min-width: 345px) {
+  .fotns {
+    top: 700vh;
+  }
+  .titns {
+    top: 35vh;
+  }
+}
 @media (max-width: 630px) {
   .cards1 {
     top: 45vh;
@@ -1153,11 +1161,13 @@
     left: 60vh;
   }
 }
-@media (max-width: 630px) {
+@media (min-width: 942px) and (max-width: 1290px) {
   .fotns {
-    top: 700vh;
+    top: 290vh;
   }
-  .titns {
-    top: 35vh;
+}
+@media (min-width: 1291px) {
+  .fotns {
+    top: 200vh;
   }
 }/*# sourceMappingURL=estilo.css.map */
