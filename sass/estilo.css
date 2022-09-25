@@ -1045,26 +1045,26 @@
   }
   .mapa1 {
     left: 10vh;
-    width: 30vh;
+    top: 35vh;
   }
   .inf {
     width: 35vh;
     top: 75vh;
-    left: 20vh;
+    left: 8vh;
   }
   .text {
     top: 135vh;
-    left: 8vh;
+    left: 10vh;
     width: 30vh;
   }
   .fotenv {
-    width: 20vh;
+    width: 30vh;
     top: 158vh;
     left: 10vh;
   }
   .mapa1 {
-    width: 30vh;
-    height: 30vh;
+    width: 35vh;
+    height: 35vh;
     left: 7vh;
   }
   #navbarNavDropdown {
