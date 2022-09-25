@@ -101,7 +101,7 @@
 @media (max-width: 500px) {
   .row {
     position: absolute;
-    top: 30vh;
+    top: 35vh;
   }
 }
 .body {
@@ -1050,12 +1050,13 @@
     top: 28vh;
   }
   .mapa1 {
-    top: 38vh;
+    left: 10vh;
+    width: 30vh;
   }
   .inf {
     width: 35vh;
     top: 75vh;
-    left: 7vh;
+    left: 20vh;
   }
   .text {
     top: 135vh;
