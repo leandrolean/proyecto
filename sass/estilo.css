@@ -94,14 +94,14 @@
   }
   .row {
     position: absolute;
-    top: 25vh;
+    top: 35vh;
     z-index: -1;
   }
 }
 @media (max-width: 500px) {
   .row {
     position: absolute;
-    top: 35vh;
+    top: 45vh;
   }
 }
 .body {
