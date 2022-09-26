@@ -32,14 +32,14 @@ $color-pricipal: rgb(140, 180, 240);
   @media (max-width:768px) and (min-width:501px){
     .fotind{
       font-size: 1.5vh;
-      top: 300vh;
-      left: 12vh;
+      top: 315vh;
+      left: 15vh;
       width: 30vh;
     }
   }
-@media (max-width:500px) and (min-width:340px){
+@media (max-width:500px) and (min-width:300px){
   .fotind{
-    top: 303vh;
+    top: 313vh;
     left: 15vh;
     width: 35vh;
   }
