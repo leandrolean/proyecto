@@ -108,6 +108,14 @@
   background-image: url(..//img/ffondo1.jpg);
   width: 100%;
   position: relative;
+  /*@media (max-width:768px) and (min-width:501px){
+    .fotind{
+      font-size: 1.5vh;
+      top: 250vh;
+      left: 15vh;
+      width: 30vh;
+    }
+  }*/
 }
 .body .fotind {
   font-size: 2vh;
@@ -130,14 +138,6 @@
   .body .fotind {
     top: 170vh;
     left: 55vh;
-  }
-}
-@media (max-width: 768px) and (min-width: 501px) {
-  .body .fotind {
-    font-size: 1.5vh;
-    top: 250vh;
-    left: 15vh;
-    width: 30vh;
   }
 }
 @media (max-width: 500px) and (min-width: 200px) {
