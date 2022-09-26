@@ -235,6 +235,7 @@
   text-shadow: 5px 5px 5px rgb(7, 155, 253);
   top: 18vh;
   left: 20vh;
+  font-size: 4vh;
 }
 
 .hoy {
@@ -244,7 +245,7 @@
   text-transform: capitalize;
   text-shadow: 5px 5px 5px rgb(7, 155, 253);
   top: 18vh;
-  left: 110vh;
+  left: 100vh;
   font-size: 4vh;
 }
 
@@ -316,20 +317,21 @@
 
 @media (max-width: 1390px) {
   .img-fluid3 {
-    width: 60vh;
-    height: 30vh;
+    width: 65vh;
+    height: 35vh;
   }
   .img-fluid4 {
-    width: 60vh;
-    height: 30vh;
+    width: 65vh;
+    height: 35vh;
+    left: 100vh;
   }
   .pcomienzo {
-    top: 60vh;
-    left: 10vh;
+    top: 65vh;
+    left: 15vh;
   }
   .phoy {
-    top: 60vh;
-    left: 95vh;
+    top: 65vh;
+    left: 105vh;
   }
   .fotnos {
     font-size: 1.8vh;
@@ -1134,21 +1136,6 @@
     top: 35vh;
   }
 }
-@media (max-width: 630px) {
-  .cards1 {
-    top: 45vh;
-  }
-  .titns {
-    left: 8vh;
-    top: 235vh;
-  }
-  .fotns {
-    left: 12vh;
-    top: 695vh;
-    width: 35vh;
-    padding: 0.5vh;
-  }
-}
 @media (min-width: 631px) and (max-width: 768px) {
   .fotns {
     top: 370vh;
@@ -1169,5 +1156,20 @@
 @media (min-width: 1291px) {
   .fotns {
     top: 200vh;
+  }
+}
+@media (max-width: 630px) {
+  .cards1 {
+    top: 35vh;
+  }
+  .titns {
+    left: 8vh;
+    top: 28vh;
+  }
+  .fotns {
+    left: 12vh;
+    top: 605vh;
+    width: 35vh;
+    padding: 0.5vh;
   }
 }/*# sourceMappingURL=estilo.css.map */

@@ -57,21 +57,6 @@
 }
 
 
-@media (max-width:630px){
-    .cards1{
-        top: 45vh;
-    }
-    .titns{
-        left: 8vh;
-        top: 235vh;
-    }
-    .fotns{
-        left: 12vh;
-        top: 695vh;
-        width: 35vh;
-        padding: 0.5vh;
-    }
-}
 @media (min-width:631px) and (max-width:768px){
     .fotns{
         top: 370vh;
@@ -92,5 +77,20 @@
 @media (min-width:1291px){
     .fotns{
         top: 200vh;
+    }
+}
+@media (max-width:630px){
+    .cards1{
+        top: 35vh;
+    }
+    .titns{
+        left: 8vh;
+        top: 28vh;
+    }
+    .fotns{
+        left: 12vh;
+        top: 605vh;
+        width: 35vh;
+        padding: 0.5vh;
     }
 }
