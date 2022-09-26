@@ -94,7 +94,7 @@
   }
   .row {
     position: absolute;
-    top: 35vh;
+    top: 28vh;
     z-index: -1;
   }
 }
@@ -137,6 +137,7 @@
 @media (max-width: 500px) {
   .body .fotind {
     top: 250vh;
+    left: 10vh;
   }
 }
 
