@@ -101,6 +101,7 @@
 @media (max-width: 650px) {
   .row {
     top: 40vh;
+    width: 55vh;
   }
 }
 .body {
@@ -139,11 +140,11 @@
     width: 30vh;
   }
 }
-@media (max-width: 500px) and (min-width: 300px) {
+@media (max-width: 500px) and (min-width: 200px) {
   .body .fotind {
     top: 313vh;
     left: 15vh;
-    width: 35vh;
+    width: 30vh;
   }
 }
 
