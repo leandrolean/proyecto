@@ -20,12 +20,12 @@
    
 }
 .fotns{
-    top: 200vh;
+    top: 130vh;
     font-size: 2vh;
     width: 25%;
     box-shadow: 10px 10px 101px rgb(7, 155, 253);
     position: absolute;
-    left: 80vh;
+    left: 70vh;
     border: 2px solid white;
     border-radius: 15px;
     text-align: center;
@@ -43,7 +43,7 @@
     position: absolute;
     top: 20vh;
     text-transform: capitalize;
-    left: 75vh;
+    left: 10vh;
     text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
 
 }
@@ -52,25 +52,34 @@
 
 @media (min-width:631px) and (max-width:768px){
     .fotns{
-        top: 200vh;
-        left: 50vh;
+        top: 520vh;
+        left: 10vh;
+        font-size: 1.5vh;
     }
 }
 @media (min-width:769px) and (max-width:941px){
     .fotns{
-        top: 370vh;
-        left: 60vh;
+        top: 270vh;
+        left: 28vh;
+        width: 40vh;
+        font-size: 1.5vh;
     }
 }
 @media (min-width:942px) and (max-width:1290px){
     .fotns{
-        top: 290vh;
+        top: 220vh;
+        left: 48vh;
+        font-size: 1.5vh;
+        width: 35vh;
     }
 }
-@media (min-width:1291px){
+@media (min-width:1291px) and (max-width:1300px){
     .fotns{
-        top: 200vh;
+        top: 170vh;
+        left: 70vh;
+        font-size: 1.5vh;
     }
+
 }
 @media (max-width:630px){
     .cards1{
@@ -81,9 +90,10 @@
         top: 28vh;
     }
     .fotns{
-        left: 12vh;
-        top: 615vh;
+        left: 3vh;
+        top: 525vh;
         width: 35vh;
         padding: 0.5vh;
+        font-size: 1.5vh;
     }
 }
