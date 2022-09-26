@@ -37,9 +37,6 @@ $color-pricipal: rgb(140, 180, 240);
       left: 10vh;
       width: 25vh;
     }
-    .h1t{
-      font-size:3vh ;
-    }
   }
 }
 
@@ -57,6 +54,12 @@ $color-pricipal: rgb(140, 180, 240);
   font-weight: bold;
   text-transform: capitalize;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
+}
+@media (max-width:768px){
+  .h1t{
+    top: 28vh;
+    font-size: 3.5vh;
+  }
 }
 
 
@@ -96,10 +99,6 @@ $color-pricipal: rgb(140, 180, 240);
       position: absolute;
       top: 25vh;
       z-index: -1;
-    }
-    .h1t{
-      top: 28vh;
-      font-size: 4vh;
     }
 }
 
