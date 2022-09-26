@@ -96,6 +96,7 @@
     position: absolute;
     top: 30vh;
     z-index: -1;
+    width: 55vh;
   }
 }
 @media (max-width: 650px) {
