@@ -37,7 +37,12 @@ $color-pricipal: rgb(140, 180, 240);
       width: 30vh;
     }
   }
-@media (max-width:600px)
+@media (max-width:600px){
+  .fotind{
+    top: 315vh;
+    left: 20vh;
+  }
+}
 }
 
 /*titulos*/
