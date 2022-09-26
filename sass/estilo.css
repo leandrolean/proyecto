@@ -100,7 +100,7 @@
 }
 @media (max-width: 768px) {
   .row {
-    width: 55vh;
+    width: 50vh;
   }
 }
 .body {
@@ -136,7 +136,10 @@
     font-size: 1.5vh;
     top: 255vh;
     left: 10vh;
-    width: 30vh;
+    width: 25vh;
+  }
+  .body .h1t {
+    font-size: 3vh;
   }
 }
 
