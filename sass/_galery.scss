@@ -34,12 +34,17 @@
     position: absolute;
     top: 30vh;
     z-index: -1;
+  }
+}
+@media (max-width:768px){
+  .row{
     width: 55vh;
   }
 }
+
+
 @media (max-width:650px){
   .row{
     top: 40vh;
-    width: 55vh;
   }
 }
