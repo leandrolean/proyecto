@@ -1,9 +1,7 @@
 .row {
   position: relative;
   top: 13vh;
-  width:100%;
-
-  
+  width: 100%;
 
   .card {
     margin: 2vh;
@@ -32,13 +30,14 @@
   .card-text {
     font-size: 1.5vh;
   }
-  .row{
+  .row {
     position: absolute;
-    top: 28vh;
+    top: 30vh;
     z-index: -1;
   }
 }
-
-
-
-
+@media (max-width:650px){
+  .row{
+    top: 30vh;
+  }
+}

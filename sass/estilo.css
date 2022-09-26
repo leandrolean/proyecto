@@ -94,8 +94,13 @@
   }
   .row {
     position: absolute;
-    top: 28vh;
+    top: 30vh;
     z-index: -1;
+  }
+}
+@media (max-width: 650px) {
+  .row {
+    top: 30vh;
   }
 }
 .body {
