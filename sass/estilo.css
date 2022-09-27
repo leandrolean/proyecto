@@ -128,8 +128,8 @@
 }
 @media (max-width: 768px) {
   .body .fotind {
-    top: 255vh;
-    left: 8vh;
+    top: 265vh;
+    left: 12vh;
     font-size: 1.3vh;
     width: 20vh;
   }
