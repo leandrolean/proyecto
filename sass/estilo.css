@@ -508,6 +508,22 @@
   z-index: 1;
 }
 
+@media (max-width: 900px) {
+  .ofrecemos {
+    position: absolute;
+    left: 5vh;
+    top: 20vh;
+    z-index: -1;
+  }
+}
+@media (max-width: 500px) {
+  .ofrecemos {
+    position: absolute;
+    top: 26vh;
+    left: 13vh;
+    z-index: -1;
+  }
+}
 /*laqueado*/
 /*laqueado*/
 .titlaq {

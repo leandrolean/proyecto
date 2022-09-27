@@ -1,8 +1,7 @@
-.linkpint{
+.linkpint {
   text-decoration: none;
   color: white;
 }
-
 
 .ofrecemos {
   color: $color-pricipal;
@@ -18,6 +17,22 @@
   z-index: 1;
 }
 
+@media (max-width: 900px) {
+  .ofrecemos {
+    position: absolute;
+    left: 5vh;
+    top: 20vh;
+    z-index: -1;
+  }
+}
+@media (max-width: 500px) {
+  .ofrecemos {
+    position: absolute;
+    top: 26vh;
+    left: 13vh;
+    z-index: -1;
+  }
+}
 /*laqueado*/
 
 /*laqueado*/
@@ -46,9 +61,7 @@
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
 }
 
-
-
-.img-thumbnail{
+.img-thumbnail {
   z-index: -1;
   width: 80vh;
   object-fit: cover;
@@ -59,7 +72,7 @@
   left: 50vh;
 }
 
-.volver{
+.volver {
   color: white;
   position: absolute;
   font-size: 3vh;
@@ -73,94 +86,90 @@
 
   background-color: rgba(0, 0, 0, 0.623);
 }
-@media (max-width:1390px){
-  .infolaq{
+@media (max-width: 1390px) {
+  .infolaq {
     width: 100vh;
     left: 40vh;
   }
 }
 
-@media (max-width:1180px){
-  .titlaq{
+@media (max-width: 1180px) {
+  .titlaq {
     left: 30vh;
   }
-  .img-thumbnail{
+  .img-thumbnail {
     left: 30vh;
   }
-  .infolaq{
-    left:25vh;
+  .infolaq {
+    left: 25vh;
   }
 }
-@media (max-width:1066px){
-    .titlaq{
-      left: 20vh;
-      font-size: 4vh;
-    }
-    .img-thumbnail{
-      width: 60vh;
-      height: 35vh;
-    }
-    .infolaq{
-      left: 20vh;
-      top: 65vh;
-      font-size: 2.5vh;
-      width: 80vh;
-    }
-
+@media (max-width: 1066px) {
+  .titlaq {
+    left: 20vh;
+    font-size: 4vh;
+  }
+  .img-thumbnail {
+    width: 60vh;
+    height: 35vh;
+  }
+  .infolaq {
+    left: 20vh;
+    top: 65vh;
+    font-size: 2.5vh;
+    width: 80vh;
+  }
 }
-@media (max-width:850px){
-  .titlaq{
+@media (max-width: 850px) {
+  .titlaq {
     left: 5vh;
   }
-  .img-thumbnail{
+  .img-thumbnail {
     left: 10vh;
   }
-  .infolaq{
+  .infolaq {
     left: 7vh;
     width: 70vh;
   }
 }
-@media (max-width:665px){
-  .titlaq{
+@media (max-width: 665px) {
+  .titlaq {
     font-size: 3vh;
     width: 30vh;
   }
-  .img-thumbnail{
+  .img-thumbnail {
     width: 50vh;
     height: 30vh;
     left: 5vh;
     top: 30vh;
   }
-  .infolaq{
+  .infolaq {
     font-size: 2vh;
     width: 45vh;
   }
-  .volver{
+  .volver {
     top: 95vh;
   }
 }
 
-@media (max-width:500px){
-  .titlaq{
+@media (max-width: 500px) {
+  .titlaq {
     top: 25vh;
   }
-  .img-thumbnail{
+  .img-thumbnail {
     top: 35vh;
-    left:3vh;
+    left: 3vh;
     width: 35vh;
     height: 20vh;
   }
-  .infolaq{
+  .infolaq {
     top: 60vh;
     width: 37vh;
     left: 2vh;
   }
-  .volver{
+  .volver {
     top: 90vh;
   }
 }
 
 /*tinte y barniz*/
-
-
-
