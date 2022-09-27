@@ -3,6 +3,21 @@
   color: white;
 }
 
+
+.ofrecemos {
+  color: $color-pricipal;
+  font-size: 5vh;
+  display: inline-block;
+  position: absolute;
+  top: 19vh;
+  left: 10vh;
+  width: 30%;
+  text-transform: capitalize;
+  font-family: serif;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+  z-index: 1;
+}
+
 /*laqueado*/
 
 /*laqueado*/
@@ -144,6 +159,8 @@
     top: 90vh;
   }
 }
+
+/*tinte y barniz*/
 
 
 

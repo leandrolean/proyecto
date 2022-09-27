@@ -119,7 +119,8 @@
 @media (max-width: 1200px) {
   .body .fotind {
     top: 143vh;
-    left: 35vh;
+    left: 23vh;
+    width: 40vh;
     font-size: 1.5vh;
   }
   .body .row {
@@ -172,20 +173,6 @@
     font-size: 3.5vh;
   }
 }
-.ofrecemos {
-  color: rgb(140, 180, 240);
-  font-size: 5vh;
-  display: inline-block;
-  position: absolute;
-  top: 19vh;
-  left: 75vh;
-  width: 30%;
-  text-transform: capitalize;
-  font-family: serif;
-  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
-  z-index: 1;
-}
-
 .h1tyb {
   position: absolute;
   color: white;
@@ -507,6 +494,20 @@
   color: white;
 }
 
+.ofrecemos {
+  color: rgb(140, 180, 240);
+  font-size: 5vh;
+  display: inline-block;
+  position: absolute;
+  top: 19vh;
+  left: 10vh;
+  width: 30%;
+  text-transform: capitalize;
+  font-family: serif;
+  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+  z-index: 1;
+}
+
 /*laqueado*/
 /*laqueado*/
 .titlaq {
@@ -642,6 +643,7 @@
     top: 90vh;
   }
 }
+/*tinte y barniz*/
 .registrate {
   z-index: -1;
   width: 90%;
