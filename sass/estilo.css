@@ -63,8 +63,8 @@
 }
 
 .row {
-  position: relative;
-  top: 13vh;
+  position: absolute;
+  top: 25vh;
   width: 100%;
 }
 .row .card {
@@ -88,19 +88,11 @@
   border-radius: 15px;
 }
 
-@media (max-width: 1500px) and (min-width: 769px) {
-  .card-text {
-    font-size: 1.5vh;
-  }
+@media (max-width: 1230px) {
   .row {
-    position: absolute;
+    left: 0.5vh;
+    width: 130vh;
     top: 30vh;
-    z-index: -1;
-  }
-}
-@media (max-width: 768px) {
-  .row {
-    width: 50vh;
   }
 }
 .body {
@@ -127,19 +119,39 @@
 }
 @media (max-width: 1200px) {
   .body .fotind {
-    top: 170vh;
-    left: 5vh;
+    top: 143vh;
+    left: 35vh;
+    font-size: 1.5vh;
+  }
+  .body .row {
+    width: 80vh;
   }
 }
-@media (max-width: 768px) and (min-width: 201px) {
+@media (max-width: 768px) {
   .body .fotind {
-    font-size: 1.5vh;
     top: 255vh;
-    left: 10vh;
-    width: 25vh;
+    left: 8vh;
+    font-size: 1.3vh;
+    width: 20vh;
+  }
+  .body .row {
+    width: 40vh;
+    left: 0.5vh;
+  }
+  .body .h1t {
+    font-size: 3vh;
+    top: 23vh;
   }
 }
 
+@media (max-width: 767px) {
+  .col-xl-3.col-md-6.col-sm-12 {
+    width: 30vh;
+  }
+  .col-xl-3.col-md-6.col-sm-12 .card {
+    left: 1.5vh;
+  }
+}
 /*titulos*/
 .h1t {
   position: absolute;

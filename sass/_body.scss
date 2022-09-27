@@ -24,21 +24,43 @@ $color-pricipal: rgb(140, 180, 240);
     }
   }
   @media (max-width:1200px){
-    
     .fotind{
-      top: 170vh;
-      left: 5vh;
+      top: 143vh;
+      left: 35vh;
+      font-size: 1.5vh;
+    }
+    .row{
+      width: 80vh;
     }
   }
-  @media (max-width:768px) and (min-width:201px){
+  @media (max-width:768px){
     .fotind{
-      font-size: 1.5vh;
       top: 255vh;
-      left: 10vh;
-      width: 25vh;
+      left: 8vh;
+      font-size: 1.3vh;
+      width: 20vh;
+    }
+    .row{
+      width: 40vh;
+      left: 0.5vh;
+    }
+    .h1t{
+      font-size: 3vh;
+      top: 23vh;
     }
   }
 }
+@media (max-width:767px){
+  .col-xl-3.col-md-6.col-sm-12{
+    width: 30vh;
+    .card{
+      left: 1.5vh;
+    }
+  }
+  
+}
+
+
 
 /*titulos*/
 
@@ -134,3 +156,4 @@ $color-pricipal: rgb(140, 180, 240);
   top: 20vh;
   text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
+
