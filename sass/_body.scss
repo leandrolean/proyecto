@@ -31,9 +31,18 @@ $color-pricipal: rgb(140, 180, 240);
       font-size: 1.5vh;
     }
     .row{
-      width: 80vh;
+      width: 120vh;
+      z-index: -1;
     }
 
+  }
+  @media (max-width:999px){
+    .ofrecemos{
+      z-index: -1;
+    }
+    .row{
+      width: 80vh;
+    }
   }
   @media (max-width:766px){
     .fotind{
@@ -61,17 +70,22 @@ $color-pricipal: rgb(140, 180, 240);
 
   .col-xl-3.col-md-6.col-sm-12{
     width: 40vh;
+    z-index: -1;
     .card{
       left: 8vh;
+      z-index: -1;
     }
   }
 }
 }
+
+
 @media (max-width:575px){
   .row{
     width: 20vh;
   }
 }
+
 
 
 

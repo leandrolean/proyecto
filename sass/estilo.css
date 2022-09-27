@@ -118,6 +118,15 @@
     font-size: 1.5vh;
   }
   .body .row {
+    width: 120vh;
+    z-index: -1;
+  }
+}
+@media (max-width: 999px) {
+  .body .ofrecemos {
+    z-index: -1;
+  }
+  .body .row {
     width: 80vh;
   }
 }
@@ -146,9 +155,11 @@
   }
   .row .col-xl-3.col-md-6.col-sm-12 {
     width: 40vh;
+    z-index: -1;
   }
   .row .col-xl-3.col-md-6.col-sm-12 .card {
     left: 8vh;
+    z-index: -1;
   }
 }
 @media (max-width: 575px) {
