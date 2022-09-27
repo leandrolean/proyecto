@@ -102,7 +102,7 @@ $color-pricipal: rgb(140, 180, 240);
 .h1tyb{
   position: absolute;
   color: white;
-  left: 75vh;
+  left: 10vh;
   text-transform: capitalize;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
   top: 18vh;
@@ -121,6 +121,10 @@ $color-pricipal: rgb(140, 180, 240);
       position: absolute;
       top: 25vh;
       z-index: -1;
+    }
+    .h1tyb{
+      top: 25vh;
+      left: 3vh;
     }
 }
 
