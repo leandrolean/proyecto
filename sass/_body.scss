@@ -23,7 +23,7 @@ $color-pricipal: rgb(140, 180, 240);
       text-transform: capitalize;
     }
   }
-  @media (max-width:1200px){
+  @media (max-width:1199px){
     .fotind{
       top: 143vh;
       left: 23vh;
@@ -31,7 +31,7 @@ $color-pricipal: rgb(140, 180, 240);
       font-size: 1.5vh;
     }
     .row{
-      width: 125vh;
+      width: 100vh;
       z-index: -1;
 
     }

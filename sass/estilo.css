@@ -110,7 +110,7 @@
   color: rgb(255, 255, 255);
   text-transform: capitalize;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .body .fotind {
     top: 143vh;
     left: 23vh;
@@ -118,7 +118,7 @@
     font-size: 1.5vh;
   }
   .body .row {
-    width: 125vh;
+    width: 100vh;
     z-index: -1;
   }
 }
