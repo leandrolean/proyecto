@@ -7,29 +7,14 @@
   border-radius: 20px;
 }
 
-
-.inf {
-  display: inline-block;
-  font-size: 2.5vh;
-  position: absolute;
-  top: 30vh;
-  left: 105vh;
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(82, 142, 255);
-  padding: 1.5vh;
-  background-color: rgba(0, 0, 0, 0.685);
-  box-shadow: 5px 5px 50px rgb(6, 95, 197);
-  text-transform: capitalize;
-}
-
 .text {
   display: inline-block;
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
-  font-size: 3vh;
+  font-size: 5.8vh;
   position: absolute;
   left: 105vh;
   color: white;
-  top: 68vh;
+  top: 28vh;
   text-transform: uppercase;
   font-family: serif;
   width: 80vh;
@@ -39,7 +24,7 @@
   font-size: 2vh;
   width: 25%;
   box-shadow: 10px 10px 101px rgb(7, 155, 253);
-  position:absolute;
+  position: absolute;
   left: 90vh;
   top: 92vh;
   border: 2px solid white;
@@ -58,10 +43,7 @@
     width: 70vh;
     height: 70vh;
   }
-  .inf{
-    left: 95vh;
-    font-size: 2.5vh;
-  }
+
   .text{
     font-size: 2.5vh;
     left: 65vh;
@@ -71,144 +53,115 @@
   }
 }*/
 
-@media (max-width:1600px) {
-    .inf{
-      left: 85vh;
-    }
-    .text{
-      left: 85vh;
-    }
+@media (max-width: 1600px) {
+  .text {
+    left: 85vh;
+    top: 30vh;
+    font-size: 5vh;
+  }
 }
 
-@media (max-width:1440px){
-  .mapa1{
+@media (max-width: 1440px) {
+  .mapa1 {
     width: 60vh;
     height: 50vh;
   }
-  .inf{
-    left: 85vh;
+
+  .text {
+    font-size: 4.5vh;
     top: 30vh;
-    font-size: 2vh;
-    width: 60vh;
-  }
-  .text{
-    font-size: 2vh;
-    top: 70vh;
     left: 85vh;
     width: 60vh;
   }
-  .fotenv{
+  .fotenv {
     font-size: 1.5vh;
     left: 70vh;
     top: 90vh;
   }
 }
 
-@media (min-width:980px) and (max-width:1275px){
-    .mapa1{
-      width: 40vh;
-      left: 10vh;
-    }
-    .inf{
-      top: 30vh;
-      left: 60vh;
-      width: 50vh;
-    }
-    .text{
-      top: 65vh;
-      width: 50vh;
-      font-size: 2.5vh;
-      left: 60vh;
-    }
-    .fotenv{
-      top: 90vh;
-      left: 50vh;
-    }
+@media (min-width: 980px) and (max-width: 1275px) {
+  .mapa1 {
+    width: 40vh;
+    left: 10vh;
+  }
+
+  .text {
+    top: 30vh;
+    width: 50vh;
+    font-size: 4vh;
+    left: 60vh;
+  }
+  .fotenv {
+    top: 90vh;
+    left: 50vh;
+  }
 }
-@media (max-width:979px){
-  .mapa1{
+@media (max-width: 979px) {
+  .mapa1 {
     width: 40vh;
     height: 40vh;
     z-index: -1;
     left: 20vh;
   }
-  .inf{
+
+  .text {
     top: 75vh;
-    left: 20vh;
-    width: 40vh;
-    font-size: 2.5vh;
-  }
-  .text{
-    top: 130vh;
     width: 50vh;
-    left: 17vh;
+    left: 15vh;
   }
 
-  .fotenv{
-    top: 150vh;
+  .fotenv {
+    top: 145vh;
     left: 23vh;
   }
-  .ht2{
+  .ht2 {
     z-index: -1;
   }
 }
 
-@media (max-width:600px){
-  .ht2{
+@media (max-width: 600px) {
+  .ht2 {
     z-index: -1;
     font-size: 4vh;
-    top: 28vh;
+    top: 30vh;
   }
 
-  .mapa1{
-    top: 35vh;
+  .mapa1 {
+    top: 40vh;
     width: 35vh;
     height: 35vh;
     left: 7vh;
   }
 
-  .inf{
-    width: 35vh;
-    top: 75vh;
-    left: 7vh;
+  .text {
+    top: 80vh;
+    font-size: 3.5vh;
+    left: 1vh;
+    width: 20vh;
   }
-
-  .text{
-    top: 128vh;
-    left: 11vh;
-    width: 30vh;
-  }
-  .fotenv{
+  .fotenv {
     width: 35vh;
     top: 150vh;
     left: 6.8vh;
   }
 
-  #navbarNavDropdown{
+  #navbarNavDropdown {
     z-index: 1;
     padding: 1vh;
-  background: linear-gradient(
-    to right,
-    #021b79,
-    #0575e6
-  );  }
-
+    background: linear-gradient(to right, #021b79, #0575e6);
+  }
 }
-@media (max-width:380px){
-  .mapa1{
+@media (max-width: 380px) {
+  .mapa1 {
     left: 3.5vh;
   }
-  .inf{
-    left: 3.5vh;
-    font-size: 1.5vh;
+  .text {
+    top: 80vh;
+    left: 1vh;
   }
-  .text{
-    top: 115vh;
+  .fotenv {
+    top: 145vh;
     left: 5vh;
   }
-  .fotenv{
-    top: 140vh;
-    left: 5vh;
-  }
-  
 }

@@ -88,16 +88,12 @@
   border-radius: 15px;
 }
 
-@media (max-width: 1130px) and (orientation: landscape) {
-  .row {
-    width: 80vh;
-  }
-}
 .body {
   background-image: url(..//img/ffondo1.jpg);
   width: 100%;
   position: relative;
   /*titulos*/
+  /*pintura*/
 }
 .body .fotind {
   font-size: 2vh;
@@ -123,6 +119,7 @@
 }
 .body .row {
   width: 100%;
+  top: 30vh;
 }
 @media (max-width: 1199px) {
   .body .fotind {
@@ -199,8 +196,13 @@
     font-size: 3.5vh;
   }
 }
-
-.h1tyb {
+@media (max-width: 767px) and (orientation: landscape) {
+  .body .h1t {
+    top: 25vh;
+    font-size: 3.5vh;
+  }
+}
+.body .h1tyb {
   position: absolute;
   color: white;
   left: 10vh;
@@ -208,9 +210,8 @@
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
   top: 18vh;
 }
-
 @media (max-width: 900px) {
-  .ofrecemos {
+  .body .ofrecemos {
     position: absolute;
     left: 5vh;
     top: 20vh;
@@ -218,18 +219,17 @@
   }
 }
 @media (max-width: 500px) {
-  .ofrecemos {
+  .body .ofrecemos {
     position: absolute;
     top: 25vh;
     z-index: -1;
   }
-  .h1tyb {
+  .body .h1tyb {
     top: 25vh;
     left: 3vh;
   }
 }
-/*pintura*/
-.parrafo1 {
+.body .parrafo1 {
   color: white;
   display: inline-block;
   position: relative;
@@ -237,21 +237,18 @@
   right: 25vh;
   font-size: 2vh;
 }
-
 @media (max-width: 930px) {
-  .text {
+  .body .text {
     left: 10vh;
     width: 70%;
   }
 }
 @media (max-width: 1130px) and (orientation: landscape) {
-  .row {
+  .body .row {
     top: 35vh;
   }
-  .fotind {
-    top: 300vh;
-  }
 }
+
 /*envios*/
 .ht2 {
   display: inline-block;
@@ -1004,28 +1001,14 @@
   border-radius: 20px;
 }
 
-.inf {
-  display: inline-block;
-  font-size: 2.5vh;
-  position: absolute;
-  top: 30vh;
-  left: 105vh;
-  color: rgb(255, 255, 255);
-  border: 2px solid rgb(82, 142, 255);
-  padding: 1.5vh;
-  background-color: rgba(0, 0, 0, 0.685);
-  box-shadow: 5px 5px 50px rgb(6, 95, 197);
-  text-transform: capitalize;
-}
-
 .text {
   display: inline-block;
   text-shadow: 5px 5px 5px rgba(23, 130, 252, 0.925);
-  font-size: 3vh;
+  font-size: 5.8vh;
   position: absolute;
   left: 105vh;
   color: white;
-  top: 68vh;
+  top: 28vh;
   text-transform: uppercase;
   font-family: serif;
   width: 80vh;
@@ -1055,10 +1038,7 @@
     width: 70vh;
     height: 70vh;
   }
-  .inf{
-    left: 95vh;
-    font-size: 2.5vh;
-  }
+
   .text{
     font-size: 2.5vh;
     left: 65vh;
@@ -1068,11 +1048,10 @@
   }
 }*/
 @media (max-width: 1600px) {
-  .inf {
-    left: 85vh;
-  }
   .text {
     left: 85vh;
+    top: 30vh;
+    font-size: 5vh;
   }
 }
 @media (max-width: 1440px) {
@@ -1080,15 +1059,9 @@
     width: 60vh;
     height: 50vh;
   }
-  .inf {
-    left: 85vh;
-    top: 30vh;
-    font-size: 2vh;
-    width: 60vh;
-  }
   .text {
-    font-size: 2vh;
-    top: 70vh;
+    font-size: 4.5vh;
+    top: 30vh;
     left: 85vh;
     width: 60vh;
   }
@@ -1103,15 +1076,10 @@
     width: 40vh;
     left: 10vh;
   }
-  .inf {
-    top: 30vh;
-    left: 60vh;
-    width: 50vh;
-  }
   .text {
-    top: 65vh;
+    top: 30vh;
     width: 50vh;
-    font-size: 2.5vh;
+    font-size: 4vh;
     left: 60vh;
   }
   .fotenv {
@@ -1126,19 +1094,13 @@
     z-index: -1;
     left: 20vh;
   }
-  .inf {
-    top: 75vh;
-    left: 20vh;
-    width: 40vh;
-    font-size: 2.5vh;
-  }
   .text {
-    top: 130vh;
+    top: 75vh;
     width: 50vh;
-    left: 17vh;
+    left: 15vh;
   }
   .fotenv {
-    top: 150vh;
+    top: 145vh;
     left: 23vh;
   }
   .ht2 {
@@ -1149,23 +1111,19 @@
   .ht2 {
     z-index: -1;
     font-size: 4vh;
-    top: 28vh;
+    top: 30vh;
   }
   .mapa1 {
-    top: 35vh;
+    top: 40vh;
     width: 35vh;
     height: 35vh;
     left: 7vh;
   }
-  .inf {
-    width: 35vh;
-    top: 75vh;
-    left: 7vh;
-  }
   .text {
-    top: 128vh;
-    left: 11vh;
-    width: 30vh;
+    top: 80vh;
+    font-size: 3.5vh;
+    left: 1vh;
+    width: 20vh;
   }
   .fotenv {
     width: 35vh;
@@ -1182,16 +1140,12 @@
   .mapa1 {
     left: 3.5vh;
   }
-  .inf {
-    left: 3.5vh;
-    font-size: 1.5vh;
-  }
   .text {
-    top: 115vh;
-    left: 5vh;
+    top: 80vh;
+    left: 1vh;
   }
   .fotenv {
-    top: 140vh;
+    top: 145vh;
     left: 5vh;
   }
 }

@@ -31,6 +31,7 @@ $color-pricipal: rgb(140, 180, 240);
   }
   .row{
     width: 100%;
+    top: 30vh;
 
   }
 
@@ -97,12 +98,9 @@ $color-pricipal: rgb(140, 180, 240);
 @media (max-width:575px){
   .row{
     width: 20vh;
+    
   }
 }
-
-
-
-
 
 /*titulos*/
 
@@ -120,6 +118,11 @@ $color-pricipal: rgb(140, 180, 240);
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
 }
 
+
+
+
+
+
 @media (max-width:768px){
   .h1t{
     top: 23vh;
@@ -127,7 +130,14 @@ $color-pricipal: rgb(140, 180, 240);
   }
 }
 
+@media (max-width:767px) and (orientation:landscape){
+  .h1t{
+    top: 25vh;
+    font-size: 3.5vh;
+  }
 }
+
+
 
 
 .h1tyb{
@@ -182,9 +192,8 @@ $color-pricipal: rgb(140, 180, 240);
   .row{
     top: 35vh;
   }
-  .fotind{
-    top: 300vh;
-  }
+
+}
 }
 
 
@@ -209,4 +218,3 @@ $color-pricipal: rgb(140, 180, 240);
   top: 20vh;
   text-shadow: 5px 5px 5px rgba(0, 119, 255, 0.925);
 }
-
