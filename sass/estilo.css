@@ -1112,17 +1112,17 @@
   .inf {
     width: 35vh;
     top: 75vh;
-    left: 8vh;
+    left: 7vh;
   }
   .text {
-    top: 135vh;
-    left: 10vh;
+    top: 128vh;
+    left: 11vh;
     width: 30vh;
   }
   .fotenv {
-    width: 30vh;
-    top: 158vh;
-    left: 10vh;
+    width: 35vh;
+    top: 150vh;
+    left: 6.8vh;
   }
   #navbarNavDropdown {
     z-index: 1;
