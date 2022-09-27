@@ -25,6 +25,11 @@
     border-radius: 15px;
   }
 }
+@media (max-width:1130px) and (orientation:landscape){
+  .row{
+    width: 80vh;
+    }
+  }
 
 
 
