@@ -150,6 +150,9 @@
   .col-xl-3.col-md-6.col-sm-12 .card {
     left: 5vh;
   }
+  .col-xl-3.col-md-6.col-sm-12 .fotind {
+    top: 266vh;
+  }
 }
 /*titulos*/
 .h1t {
