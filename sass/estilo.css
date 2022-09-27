@@ -88,12 +88,6 @@
   border-radius: 15px;
 }
 
-@media (max-width: 1230px) {
-  .row {
-    width: 130vh;
-    top: 30vh;
-  }
-}
 .body {
   background-image: url(..//img/ffondo1.jpg);
   width: 100%;
@@ -136,7 +130,7 @@
     padding-bottom: 0.5vh;
   }
   .body .row {
-    width: 40vh;
+    width: 30vh;
     left: 0.5vh;
   }
   .body .h1t {
@@ -146,11 +140,19 @@
 }
 
 @media (max-width: 767px) {
-  .col-xl-3.col-md-6.col-sm-12 {
-    width: 30vh;
+  .row {
+    flex-direction: column;
   }
-  .col-xl-3.col-md-6.col-sm-12 .card {
+  .row .col-xl-3.col-md-6.col-sm-12 {
+    width: 40vh;
+  }
+  .row .col-xl-3.col-md-6.col-sm-12 .card {
     left: 8vh;
+  }
+}
+@media (max-width: 575px) {
+  .row {
+    width: 20vh;
   }
 }
 /*titulos*/

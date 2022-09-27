@@ -33,6 +33,7 @@ $color-pricipal: rgb(140, 180, 240);
     .row{
       width: 80vh;
     }
+
   }
   @media (max-width:768px){
     .fotind{
@@ -44,7 +45,7 @@ $color-pricipal: rgb(140, 180, 240);
 
     }
     .row{
-      width: 40vh;
+      width: 30vh;
       left: 0.5vh;
     }
     .h1t{
@@ -53,15 +54,24 @@ $color-pricipal: rgb(140, 180, 240);
     }
   }
 }
-@media (max-width:767px){
+@media (max-width:767px) {
+  .row{
+    flex-direction: column;
+
   .col-xl-3.col-md-6.col-sm-12{
-    width: 30vh;
+    width: 40vh;
     .card{
       left: 8vh;
     }
   }
-  
 }
+}
+@media (max-width:575px){
+  .row{
+    width: 20vh;
+  }
+}
+
 
 
 
