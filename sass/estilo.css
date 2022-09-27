@@ -128,10 +128,11 @@
 }
 @media (max-width: 768px) {
   .body .fotind {
-    top: 265vh;
-    left: 12vh;
+    top: 260vh;
+    left: 9.5vh;
     font-size: 1.3vh;
-    width: 20vh;
+    width: 30vh;
+    padding-bottom: 0.5vh;
   }
   .body .row {
     width: 40vh;
@@ -149,9 +150,6 @@
   }
   .col-xl-3.col-md-6.col-sm-12 .card {
     left: 8vh;
-  }
-  .col-xl-3.col-md-6.col-sm-12 .fotind {
-    top: 266vh;
   }
 }
 /*titulos*/
