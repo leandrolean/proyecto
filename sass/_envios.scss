@@ -79,6 +79,9 @@
     top: 90vh;
   }
 }
+@media (max-width:1200px) and (orientation:landscape){
+
+}
 
 @media (min-width: 980px) and (max-width: 1275px) {
   .mapa1 {
@@ -106,9 +109,9 @@
   }
 
   .text {
-    top: 75vh;
+    top: 50vh;
     width: 50vh;
-    left: 15vh;
+    left: 20vh;
   }
 
   .fotenv {

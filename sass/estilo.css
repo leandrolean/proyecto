@@ -848,6 +848,9 @@
     height: 40vh;
     left: 70vh;
   }
+  .btn-primary {
+    font-size: 1vh;
+  }
   .titcontacto {
     font-size: 2vh;
     width: 55vh;
@@ -878,9 +881,12 @@
     height: 30vh;
     top: 30vh;
   }
+  .registrate {
+    top: 23vh;
+  }
   .titcontacto {
     width: 90vh;
-    top: 75vh;
+    top: 73vh;
     height: 10vh;
   }
   .insta {
@@ -1095,9 +1101,9 @@
     left: 20vh;
   }
   .text {
-    top: 75vh;
+    top: 50vh;
     width: 50vh;
-    left: 15vh;
+    left: 20vh;
   }
   .fotenv {
     top: 145vh;
