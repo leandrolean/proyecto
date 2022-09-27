@@ -126,8 +126,8 @@
 }
 @media (max-width: 1199px) {
   .body .fotind {
-    top: 143vh;
-    left: 23vh;
+    top: 153vh;
+    left: 35vh;
     width: 40vh;
     font-size: 1.5vh;
   }
@@ -184,7 +184,8 @@
   position: absolute;
   color: rgb(255, 255, 255);
   width: 50%;
-  top: 20vh;
+  display: flex;
+  top: 25vh;
   z-index: -1;
   left: 8vh;
   font-family: serif;
@@ -194,7 +195,7 @@
 }
 @media (max-width: 768px) {
   .body .h1t {
-    top: 20vh;
+    top: 23vh;
     font-size: 3.5vh;
   }
 }
@@ -245,7 +246,10 @@
 }
 @media (max-width: 1130px) and (orientation: landscape) {
   .row {
-    top: 10vh;
+    top: 35vh;
+  }
+  .fotind {
+    top: 300vh;
   }
 }
 /*envios*/

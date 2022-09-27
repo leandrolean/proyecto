@@ -36,8 +36,8 @@ $color-pricipal: rgb(140, 180, 240);
 
   @media (max-width:1199px){
     .fotind{
-      top: 143vh;
-      left: 23vh;
+      top: 153vh;
+      left: 35vh;
       width: 40vh;
       font-size: 1.5vh;
     }
@@ -89,7 +89,9 @@ $color-pricipal: rgb(140, 180, 240);
     }
   }
 }
+
 }
+
 
 
 @media (max-width:575px){
@@ -101,14 +103,15 @@ $color-pricipal: rgb(140, 180, 240);
 
 
 
+
 /*titulos*/
 
 .h1t {
   position: absolute;
   color: rgb(255, 255, 255);
   width: 50%;
-
-  top: 20vh;
+  display: flex;
+  top: 25vh;
   z-index: -1;
   left: 8vh;
   font-family: serif;
@@ -116,13 +119,16 @@ $color-pricipal: rgb(140, 180, 240);
   text-transform: capitalize;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
 }
+
 @media (max-width:768px){
   .h1t{
-    top: 20vh;
+    top: 23vh;
     font-size: 3.5vh;
   }
 }
+
 }
+
 
 .h1tyb{
   position: absolute;
@@ -131,7 +137,9 @@ $color-pricipal: rgb(140, 180, 240);
   text-transform: capitalize;
   text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
   top: 18vh;
+  
 }
+
 
 @media (max-width: 900px) {
   .ofrecemos {
@@ -172,9 +180,14 @@ $color-pricipal: rgb(140, 180, 240);
 
 @media (max-width:1130px) and (orientation:landscape){
   .row{
-    top: 10vh;
+    top: 35vh;
+  }
+  .fotind{
+    top: 300vh;
   }
 }
+
+
 
     
   
