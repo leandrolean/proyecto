@@ -1,4 +1,5 @@
 .registrate {
+  z-index: -1;
   width: 90%;
   display: inline-block;
   position: absolute;
@@ -128,7 +129,7 @@
   }
   .img-fluid {
     left: 80vh;
-    width: 85vh;
+    width: 65vh;
     height: 50vh;
     z-index: -1;
   }

@@ -645,6 +645,7 @@
   }
 }
 .registrate {
+  z-index: -1;
   width: 90%;
   display: inline-block;
   position: absolute;
@@ -772,7 +773,7 @@
   }
   .img-fluid {
     left: 80vh;
-    width: 85vh;
+    width: 65vh;
     height: 50vh;
     z-index: -1;
   }
@@ -1178,14 +1179,14 @@
 
 @media (min-width: 631px) and (max-width: 768px) {
   .fotns {
-    top: 520vh;
-    left: 10vh;
+    top: 280vh;
+    left: 30vh;
     font-size: 1.5vh;
   }
 }
 @media (min-width: 769px) and (max-width: 941px) {
   .fotns {
-    top: 270vh;
+    top: 285vh;
     left: 28vh;
     width: 40vh;
     font-size: 1.5vh;
@@ -1193,16 +1194,16 @@
 }
 @media (min-width: 942px) and (max-width: 1290px) {
   .fotns {
-    top: 220vh;
-    left: 48vh;
+    top: 280vh;
+    left: 40vh;
     font-size: 1.5vh;
     width: 35vh;
   }
 }
-@media (min-width: 1291px) and (max-width: 1300px) {
+@media (min-width: 1291px) and (max-width: 1390px) {
   .fotns {
     top: 170vh;
-    left: 70vh;
+    left: 60vh;
     font-size: 1.5vh;
   }
 }
@@ -1216,9 +1217,14 @@
   }
   .fotns {
     left: 3vh;
-    top: 525vh;
+    top: 535vh;
     width: 35vh;
     padding: 0.5vh;
     font-size: 1.5vh;
+  }
+}
+@media (min-width: 1390px) and (max-width: 1630px) {
+  .fotns {
+    top: 170vh;
   }
 }/*# sourceMappingURL=estilo.css.map */
