@@ -35,7 +35,7 @@ $color-pricipal: rgb(140, 180, 240);
     }
 
   }
-  @media (max-width:768px){
+  @media (max-width:766px){
     .fotind{
       top: 260vh;
       left: 9.5vh;
@@ -47,6 +47,7 @@ $color-pricipal: rgb(140, 180, 240);
     .row{
       width: 30vh;
       left: 0.5vh;
+      top: 28vh;
     }
     .h1t{
       font-size: 3vh;
@@ -92,7 +93,7 @@ $color-pricipal: rgb(140, 180, 240);
 }
 @media (max-width:768px){
   .h1t{
-    top: 28vh;
+    top: 20vh;
     font-size: 3.5vh;
   }
 }
