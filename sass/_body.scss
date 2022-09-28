@@ -24,188 +24,161 @@ $color-pricipal: rgb(140, 180, 240);
     }
   }
 
-  .contt{
+  .contt {
     width: 100%;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
-  .row{
+  .row {
     width: 100%;
     top: 30vh;
-
   }
 
-  @media (max-width:1199px){
-    .fotind{
+  @media (max-width: 1199px) {
+    .fotind {
       top: 153vh;
       left: 35vh;
       width: 40vh;
       font-size: 1.5vh;
     }
-    .row{
+    .row {
       width: 100%;
       z-index: -1;
-
     }
-
   }
-  @media (max-width:999px){
-    .ofrecemos{
+  @media (max-width: 999px) {
+    .ofrecemos {
       z-index: -1;
     }
-    .row{
+    .row {
       width: 100%;
     }
   }
-  @media (max-width:766px){
-    .fotind{
+  @media (max-width: 766px) {
+    .fotind {
       top: 260vh;
       left: 9.5vh;
       font-size: 1.3vh;
       width: 30vh;
       padding-bottom: 0.5vh;
-
     }
-    .row{
+    .row {
       width: 30vh;
       left: 0.5vh;
       top: 28vh;
     }
-    .h1t{
+    .h1t {
       font-size: 3vh;
       top: 23vh;
     }
   }
 
-@media (max-width:767px) {
-  .row{
-    flex-direction: column;
+  @media (max-width: 767px) {
+    .row {
+      flex-direction: column;
 
-  .col-xl-3.col-md-6.col-sm-12{
-    width: 40vh;
-    z-index: -1;
-    .card{
-      left: 8vh;
-      z-index: -1;
+      .col-xl-3.col-md-6.col-sm-12 {
+        width: 40vh;
+        z-index: -1;
+        .card {
+          left: 8vh;
+          z-index: -1;
+        }
+      }
     }
   }
-}
 
-}
-
-
-
-@media (max-width:575px){
-  .row{
-    width: 20vh;
-    
+  @media (max-width: 575px) {
+    .row {
+      width: 20vh;
+    }
   }
-}
 
-/*titulos*/
+  /*titulos*/
 
-.h1t {
-  position: absolute;
-  color: rgb(255, 255, 255);
-  width: 50%;
-  display: flex;
-  top: 25vh;
-  z-index: -1;
-  left: 8vh;
-  font-family: serif;
-  font-weight: bold;
-  text-transform: capitalize;
-  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
-}
-
-
-
-
-
-
-@media (max-width:768px){
-  .h1t{
-    top: 23vh;
-    font-size: 3.5vh;
-  }
-}
-
-@media (max-width:767px) and (orientation:landscape){
-  .h1t{
-    top: 25vh;
-    font-size: 3.5vh;
-  }
-}
-
-
-
-
-.h1tyb{
-  position: absolute;
-  color: white;
-  left: 10vh;
-  text-transform: capitalize;
-  text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
-  top: 18vh;
-  
-}
-
-
-@media (max-width: 900px) {
-  .ofrecemos {
+  .h1t {
     position: absolute;
-    left: 5vh;
-    top: 20vh;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    display: flex;
+    top: 25vh;
     z-index: -1;
+    left: 8vh;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.774);
   }
-}
-@media (max-width: 500px) {
-    .ofrecemos{
+
+  @media (max-width: 768px) {
+    .h1t {
+      top: 23vh;
+      font-size: 3.5vh;
+    }
+  }
+
+  @media (max-width: 767px) and (orientation: landscape) {
+    .h1t {
+      top: 25vh;
+      font-size: 3.5vh;
+    }
+  }
+
+  .h1tyb {
+    position: absolute;
+    color: white;
+    left: 10vh;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(98, 171, 255, 0.925);
+    top: 18vh;
+  }
+
+  @media (max-width: 900px) {
+    .ofrecemos {
+      position: absolute;
+      left: 5vh;
+      top: 20vh;
+      z-index: -1;
+    }
+
+  }
+  @media (max-width: 500px) {
+    .ofrecemos {
       position: absolute;
       top: 25vh;
       z-index: -1;
     }
-    .h1tyb{
+    .h1tyb {
       top: 25vh;
       left: 3vh;
     }
-}
-
-/*pintura*/
-
-.parrafo1 {
-  color: white;
-  display: inline-block;
-  position: relative;
-  top: 20vh;
-  right: 25vh;
-  font-size: 2vh;
-}
-@media (max-width: 930px) {
-  .text {
-    left: 10vh;
-    width: 70%;
-  }
-}
-
-@media (max-width:1130px) and (orientation:landscape){
-  .row{
-    top: 35vh;
   }
 
+  /*pintura*/
+
+  .parrafo1 {
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 20vh;
+    right: 25vh;
+    font-size: 2vh;
+  }
+  @media (max-width: 930px) {
+    .text {
+      left: 10vh;
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 1130px) and (orientation: landscape) {
+    .row {
+      top: 35vh;
+    }
+  }
 }
-}
-
-
-
-    
-  
-
-
-
-
 /*envios*/
-.ht2{
+.ht2 {
   display: inline-block;
   color: rgb(255, 255, 255);
   font-size: 5vh;
